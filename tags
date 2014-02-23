@@ -1,0 +1,1155 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AA_DEF_PROFILE	.\apparmor.c	101;"	d	file:
+AA_ENABLED_FILE	.\apparmor.c	18;"	d	file:
+AA_MOUNT_RESTR	.\apparmor.c	17;"	d	file:
+ABORTING	.\state.h	/^	ABORTING, FREEZING, FROZEN, THAWED, MAX_STATE,$/;"	e	enum:__anon4
+ALERT	.\log.h	272;"	d
+CAP_MAC_ADMIN	.\conf.c	129;"	d	file:
+CAP_MAC_OVERRIDE	.\conf.c	125;"	d	file:
+CAP_SETFCAP	.\conf.c	121;"	d	file:
+CLONE_FS	.\namespace.h	32;"	d
+CLONE_NEWIPC	.\namespace.h	41;"	d
+CLONE_NEWNET	.\namespace.h	50;"	d
+CLONE_NEWNS	.\namespace.h	35;"	d
+CLONE_NEWPID	.\namespace.h	47;"	d
+CLONE_NEWUSER	.\namespace.h	44;"	d
+CLONE_NEWUTS	.\namespace.h	38;"	d
+CONTAINER_HALTING	.\lxcutmp.c	125;"	d	file:
+CONTAINER_REBOOTING	.\lxcutmp.c	124;"	d	file:
+CONTAINER_RUNNING	.\lxcutmp.c	126;"	d	file:
+CONTAINER_STARTING	.\lxcutmp.c	123;"	d	file:
+CRIT	.\log.h	267;"	d
+DEBUG	.\log.h	242;"	d
+ERROR	.\log.h	262;"	d
+FATAL	.\log.h	277;"	d
+FREEZING	.\state.h	/^	ABORTING, FREEZING, FROZEN, THAWED, MAX_STATE,$/;"	e	enum:__anon4
+FROZEN	.\state.h	/^	ABORTING, FREEZING, FROZEN, THAWED, MAX_STATE,$/;"	e	enum:__anon4
+F_DUPFD_CLOEXEC	.\log.h	37;"	d
+GENLMSG_DATA	.\genl.h	30;"	d
+GENLMSG_GOOD_SIZE	.\genl.h	29;"	d
+ID_TYPE_GID	.\conf.h	/^	ID_TYPE_GID$/;"	e	enum:idtype
+ID_TYPE_UID	.\conf.h	/^	ID_TYPE_UID,$/;"	e	enum:idtype
+IFLA_INFO_DATA	.\network.c	73;"	d	file:
+IFLA_INFO_KIND	.\network.c	65;"	d	file:
+IFLA_LINKINFO	.\network.c	57;"	d	file:
+IFLA_LINKMODE	.\network.c	53;"	d	file:
+IFLA_MACVLAN_MODE	.\network.c	81;"	d	file:
+IFLA_NET_NS_PID	.\network.c	61;"	d	file:
+IFLA_VLAN_ID	.\network.c	69;"	d	file:
+INFO	.\log.h	247;"	d
+LINELEN	.\conf.c	1033;"	d	file:
+LO_FLAGS_AUTOCLEAR	.\conf.c	138;"	d	file:
+LXCHOOK_AUTODEV	.\conf.h	/^	LXCHOOK_PRESTART, LXCHOOK_PREMOUNT, LXCHOOK_MOUNT, LXCHOOK_AUTODEV,$/;"	e	enum:lxchooks
+LXCHOOK_MOUNT	.\conf.h	/^	LXCHOOK_PRESTART, LXCHOOK_PREMOUNT, LXCHOOK_MOUNT, LXCHOOK_AUTODEV,$/;"	e	enum:lxchooks
+LXCHOOK_POSTSTOP	.\conf.h	/^	LXCHOOK_START, LXCHOOK_POSTSTOP, NUM_LXC_HOOKS};$/;"	e	enum:lxchooks
+LXCHOOK_PREMOUNT	.\conf.h	/^	LXCHOOK_PRESTART, LXCHOOK_PREMOUNT, LXCHOOK_MOUNT, LXCHOOK_AUTODEV,$/;"	e	enum:lxchooks
+LXCHOOK_PRESTART	.\conf.h	/^	LXCHOOK_PRESTART, LXCHOOK_PREMOUNT, LXCHOOK_MOUNT, LXCHOOK_AUTODEV,$/;"	e	enum:lxchooks
+LXCHOOK_START	.\conf.h	/^	LXCHOOK_START, LXCHOOK_POSTSTOP, NUM_LXC_HOOKS};$/;"	e	enum:lxchooks
+LXCLOCK_PREFIX	.\lxclock.c	28;"	d	file:
+LXC_ATTACH_CLEAR_ENV	.\attach.h	/^	LXC_ATTACH_CLEAR_ENV$/;"	e	enum:lxc_attach_env_policy_t
+LXC_ATTACH_KEEP_ENV	.\attach.h	/^	LXC_ATTACH_KEEP_ENV,$/;"	e	enum:lxc_attach_env_policy_t
+LXC_COMMAND_CGROUP	.\commands.h	/^	LXC_COMMAND_CGROUP,$/;"	e	enum:__anon1
+LXC_COMMAND_CLONE_FLAGS	.\commands.h	/^	LXC_COMMAND_CLONE_FLAGS,$/;"	e	enum:__anon1
+LXC_COMMAND_MAX	.\commands.h	/^	LXC_COMMAND_MAX,$/;"	e	enum:__anon1
+LXC_COMMAND_PID	.\commands.h	/^	LXC_COMMAND_PID,$/;"	e	enum:__anon1
+LXC_COMMAND_STATE	.\commands.h	/^	LXC_COMMAND_STATE,$/;"	e	enum:__anon1
+LXC_COMMAND_STOP	.\commands.h	/^	LXC_COMMAND_STOP,$/;"	e	enum:__anon1
+LXC_COMMAND_TTY	.\commands.h	/^	LXC_COMMAND_TTY,$/;"	e	enum:__anon1
+LXC_COMMON_OPTIONS	.\arguments.h	76;"	d
+LXC_DEFAULT_CONFIG	.\lxccontainer.c	758;"	d	file:
+LXC_FLAG_HALT	.\lxc.h	186;"	d
+LXC_FLAG_PAUSE	.\lxc.h	185;"	d
+LXC_LOG_BUFFER_SIZE	.\log.c	40;"	d	file:
+LXC_LOG_BUFFER_SIZE	.\log.h	41;"	d
+LXC_LOG_LOCINFO_INIT	.\log.h	64;"	d
+LXC_LOG_PREFIX_SIZE	.\log.c	39;"	d	file:
+LXC_LOG_PREFIX_SIZE	.\log.h	40;"	d
+LXC_LOG_PRIORITY_ALERT	.\log.h	/^	LXC_LOG_PRIORITY_ALERT,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_CRIT	.\log.h	/^	LXC_LOG_PRIORITY_CRIT,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_DEBUG	.\log.h	/^	LXC_LOG_PRIORITY_DEBUG,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_ERROR	.\log.h	/^	LXC_LOG_PRIORITY_ERROR,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_FATAL	.\log.h	/^	LXC_LOG_PRIORITY_FATAL,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_INFO	.\log.h	/^	LXC_LOG_PRIORITY_INFO,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_NOTICE	.\log.h	/^	LXC_LOG_PRIORITY_NOTICE,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_NOTSET	.\log.h	/^	LXC_LOG_PRIORITY_NOTSET,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_TRACE	.\log.h	/^	LXC_LOG_PRIORITY_TRACE,$/;"	e	enum:lxc_loglevel
+LXC_LOG_PRIORITY_WARN	.\log.h	/^	LXC_LOG_PRIORITY_WARN,$/;"	e	enum:lxc_loglevel
+LXC_NET_EMPTY	.\conf.h	/^	LXC_NET_EMPTY,$/;"	e	enum:__anon2
+LXC_NET_MACVLAN	.\conf.h	/^	LXC_NET_MACVLAN,$/;"	e	enum:__anon2
+LXC_NET_MAXCONFTYPE	.\conf.h	/^	LXC_NET_MAXCONFTYPE,$/;"	e	enum:__anon2
+LXC_NET_PHYS	.\conf.h	/^	LXC_NET_PHYS,$/;"	e	enum:__anon2
+LXC_NET_VETH	.\conf.h	/^	LXC_NET_VETH,$/;"	e	enum:__anon2
+LXC_NET_VLAN	.\conf.h	/^	LXC_NET_VLAN,$/;"	e	enum:__anon2
+LXC_SYNC_CGROUP	.\sync.h	/^	LXC_SYNC_CGROUP,$/;"	e	enum:__anon5
+LXC_SYNC_CONFIGURE	.\sync.h	/^	LXC_SYNC_CONFIGURE,$/;"	e	enum:__anon5
+LXC_SYNC_POST_CGROUP	.\sync.h	/^	LXC_SYNC_POST_CGROUP,$/;"	e	enum:__anon5
+LXC_SYNC_POST_CONFIGURE	.\sync.h	/^	LXC_SYNC_POST_CONFIGURE,$/;"	e	enum:__anon5
+LXC_SYNC_POST_RESTART	.\sync.h	/^	LXC_SYNC_POST_RESTART,$/;"	e	enum:__anon5
+LXC_SYNC_RESTART	.\sync.h	/^	LXC_SYNC_RESTART,$/;"	e	enum:__anon5
+MACVLAN_MODE_BRIDGE	.\confile.c	443;"	d	file:
+MACVLAN_MODE_PRIVATE	.\confile.c	435;"	d	file:
+MACVLAN_MODE_VEPA	.\confile.c	439;"	d	file:
+MAXHWLEN	.\conf.c	90;"	d	file:
+MAXINDEXLEN	.\conf.c	91;"	d	file:
+MAXLINELEN	.\conf.c	93;"	d	file:
+MAXMTULEN	.\conf.c	92;"	d	file:
+MAXPRIOLEN	.\cgroup.h	26;"	d
+MAX_EVENTS	.\mainloop.c	39;"	d	file:
+MAX_STATE	.\state.h	/^	ABORTING, FREEZING, FROZEN, THAWED, MAX_STATE,$/;"	e	enum:__anon4
+MNT_DETACH	.\conf.c	104;"	d	file:
+MS_DIRSYNC	.\conf.c	96;"	d	file:
+MS_REC	.\conf.c	100;"	d	file:
+MS_RELATIME	.\conf.c	112;"	d	file:
+MS_SLAVE	.\conf.c	108;"	d	file:
+MS_STRICTATIME	.\conf.c	116;"	d	file:
+MTAB	.\cgroup.c	55;"	d	file:
+NLA_DATA	.\nl.h	35;"	d
+NLA_NEXT_ATTR	.\nl.h	36;"	d
+NLMSG_ERROR	.\nl.c	194;"	d	file:
+NLMSG_GOOD_SIZE	.\nl.h	32;"	d
+NLMSG_TAIL	.\nl.c	35;"	d	file:
+NLMSG_TAIL	.\nl.h	33;"	d
+NOTICE	.\log.h	252;"	d
+NUMCAPS	.\caps.c	244;"	d	file:
+NUM_LXC_HOOKS	.\conf.h	/^	LXCHOOK_START, LXCHOOK_POSTSTOP, NUM_LXC_HOOKS};$/;"	e	enum:lxchooks
+OFLAG	.\lxclock.c	24;"	d	file:
+OPEN_READ_MODE	.\lxc_restart.c	166;"	d	file:
+OPEN_WRITE_MODE	.\lxc_checkpoint.c	126;"	d	file:
+OPT_USAGE	.\arguments.h	87;"	d
+O_CLOEXEC	.\log.h	33;"	d
+PAGE_SIZE	.\nl.h	30;"	d
+PR_CAPBSET_DROP	.\attach.c	40;"	d	file:
+PR_CAPBSET_DROP	.\conf.c	134;"	d	file:
+PR_CAPBSET_DROP	.\start.c	117;"	d	file:
+PR_CAPBSET_READ	.\caps.c	41;"	d	file:
+RTNLMSG_DATA	.\rtnl.h	30;"	d
+RTNLMSG_GOOD_SIZE	.\rtnl.h	29;"	d
+RUNNING	.\state.h	/^	STOPPED, STARTING, RUNNING, STOPPING,$/;"	e	enum:__anon4
+RUN_LVL	.\lxcutmp.c	75;"	d	file:
+SEMMODE	.\lxclock.c	25;"	d	file:
+SEMVALUE	.\lxclock.c	26;"	d	file:
+SEMVALUE_LOCKED	.\lxclock.c	27;"	d	file:
+STARTING	.\state.h	/^	STOPPED, STARTING, RUNNING, STOPPING,$/;"	e	enum:__anon4
+STOPPED	.\state.h	/^	STOPPED, STARTING, RUNNING, STOPPING,$/;"	e	enum:__anon4
+STOPPING	.\state.h	/^	STOPPED, STARTING, RUNNING, STOPPING,$/;"	e	enum:__anon4
+SYSERROR	.\log.h	284;"	d
+TFD_CLOEXEC	.\lxcutmp.c	43;"	d	file:
+TFD_NONBLOCK	.\lxcutmp.c	39;"	d	file:
+THAWED	.\state.h	/^	ABORTING, FREEZING, FROZEN, THAWED, MAX_STATE,$/;"	e	enum:__anon4
+TRACE	.\log.h	237;"	d
+UNIX_PATH_MAX	.\monitor.c	47;"	d	file:
+VETH_INFO_PEER	.\network.c	77;"	d	file:
+WARN	.\log.h	257;"	d
+_GNU_SOURCE	.\attach.c	24;"	d	file:
+_GNU_SOURCE	.\caps.c	24;"	d	file:
+_GNU_SOURCE	.\cgroup.c	23;"	d	file:
+_GNU_SOURCE	.\cgroup.c	25;"	d	file:
+_GNU_SOURCE	.\conf.c	23;"	d	file:
+_GNU_SOURCE	.\conf.c	25;"	d	file:
+_GNU_SOURCE	.\confile.c	23;"	d	file:
+_GNU_SOURCE	.\freezer.c	23;"	d	file:
+_GNU_SOURCE	.\freezer.c	25;"	d	file:
+_GNU_SOURCE	.\lxc_attach.c	24;"	d	file:
+_GNU_SOURCE	.\lxc_checkpoint.c	23;"	d	file:
+_GNU_SOURCE	.\lxc_console.c	24;"	d	file:
+_GNU_SOURCE	.\lxc_console.c	26;"	d	file:
+_GNU_SOURCE	.\lxc_execute.c	23;"	d	file:
+_GNU_SOURCE	.\lxc_init.c	33;"	d	file:
+_GNU_SOURCE	.\lxc_restart.c	23;"	d	file:
+_GNU_SOURCE	.\lxc_restart.c	25;"	d	file:
+_GNU_SOURCE	.\lxc_start.c	23;"	d	file:
+_GNU_SOURCE	.\lxc_start.c	25;"	d	file:
+_GNU_SOURCE	.\lxc_unshare.c	23;"	d	file:
+_GNU_SOURCE	.\lxc_unshare.c	25;"	d	file:
+_GNU_SOURCE	.\network.c	23;"	d	file:
+_GNU_SOURCE	.\parse.c	23;"	d	file:
+_GNU_SOURCE	.\parse.c	25;"	d	file:
+_GNU_SOURCE	.\restart.c	27;"	d	file:
+_GNU_SOURCE	.\seccomp.c	24;"	d	file:
+_GNU_SOURCE	.\start.c	27;"	d	file:
+_GNU_SOURCE	.\utils.c	24;"	d	file:
+_GNU_SOURCe	.\network.c	25;"	d	file:
+__NR_signalfd	.\start.c	101;"	d	file:
+__NR_signalfd	.\start.c	95;"	d	file:
+__NR_signalfd	.\start.c	97;"	d	file:
+__NR_signalfd	.\start.c	99;"	d	file:
+__NR_signalfd4	.\start.c	82;"	d	file:
+__NR_signalfd4	.\start.c	84;"	d	file:
+__NR_signalfd4	.\start.c	86;"	d	file:
+__NR_signalfd4	.\start.c	88;"	d	file:
+__S_ISTYPE	.\conf.c	171;"	d	file:
+__USE_GNU	.\af_unix.c	27;"	d	file:
+__USE_GNU	.\af_unix.c	29;"	d	file:
+__USE_GNU	.\log.c	31;"	d	file:
+__USE_GNU	.\lxcutmp.c	107;"	d	file:
+__USE_GNU	.\lxcutmp.c	67;"	d	file:
+__arguments_h	.\arguments.h	25;"	d
+__commands_h	.\commands.h	24;"	d
+__genl_h	.\genl.h	24;"	d
+__genl_h	.\rtnl.h	24;"	d
+__lxc_command	.\commands.c	/^static int __lxc_command(const char *name, struct lxc_command *command,$/;"	f	file:
+__lxc_error_h	.\error.h	24;"	d
+__lxc_getstate	.\state.c	/^static lxc_state_t __lxc_getstate(const char *name, const char *lxcpath)$/;"	f	file:
+__lxc_h	.\lxc.h	24;"	d
+__lxc_list_add	.\list.h	/^static inline void __lxc_list_add(struct lxc_list *new,$/;"	f
+__lxc_log	.\log.h	/^__lxc_log(const struct lxc_log_category* category,$/;"	f
+__lxc_log_append	.\log.h	/^__lxc_log_append(const struct lxc_log_appender *appender,$/;"	f
+__lxc_start	.\start.c	/^int __lxc_start(const char *name, struct lxc_conf *conf,$/;"	f
+__lxc_state_h	.\start.h	24;"	d
+__lxc_sync_h	.\sync.h	24;"	d
+__monitor_h	.\monitor.h	24;"	d
+__namespace_h	.\namespace.h	24;"	d
+__nl_h	.\nl.h	24;"	d
+__pad	.\start.c	/^	uint8_t __pad[48];$/;"	m	struct:signalfd_siginfo	file:
+__parse_h	.\parse.h	24;"	d
+__sync_barrier	.\sync.c	/^static int __sync_barrier(int fd, int sequence)$/;"	f	file:
+__sync_wait	.\sync.c	/^static int __sync_wait(int fd, int sequence)$/;"	f	file:
+__sync_wake	.\sync.c	/^static int __sync_wake(int fd, int sequence)$/;"	f	file:
+_attach_h	.\attach.h	25;"	d
+_caps_h	.\caps.h	26;"	d
+_cgroup_h	.\cgroup.h	24;"	d
+_conf_h	.\conf.h	24;"	d
+_confile_h	.\confile.h	27;"	d
+_list_h	.\list.h	2;"	d
+_log_h	.\log.h	25;"	d
+_network_h	.\network.h	24;"	d
+_real_caps_last_cap	.\caps.c	/^static int _real_caps_last_cap(void)$/;"	f	file:
+_state_h	.\state.h	24;"	d
+_utils_h	.\utils.h	24;"	d
+_version_h	.\version.h	24;"	d
+aa_am_unconfined	.\apparmor.c	/^static int aa_am_unconfined(void)$/;"	f	file:
+aa_enabled	.\start.h	/^	int aa_enabled;$/;"	m	struct:lxc_handler
+aa_get_profile	.\apparmor.c	/^extern char *aa_get_profile(pid_t pid)$/;"	f
+aa_get_profile	.\apparmor.h	/^static inline char *aa_get_profile(pid_t pid) {$/;"	f
+aa_profile	.\attach.h	/^	char *aa_profile;$/;"	m	struct:lxc_proc_context_info
+aa_profile	.\conf.h	/^	char *aa_profile;$/;"	m	struct:lxc_conf
+acast	.\conf.h	/^	struct in6_addr acast;$/;"	m	struct:lxc_inet6dev	typeref:struct:lxc_inet6dev::in6_addr
+add_hook	.\confile.c	/^static int add_hook(struct lxc_conf *lxc_conf, int which, char *hook)$/;"	f	file:
+addr	.\conf.h	/^	struct in6_addr addr;$/;"	m	struct:lxc_inet6dev	typeref:struct:lxc_inet6dev::in6_addr
+addr	.\conf.h	/^	struct in6_addr addr;$/;"	m	struct:lxc_route6	typeref:struct:lxc_route6::in6_addr
+addr	.\conf.h	/^	struct in_addr addr;$/;"	m	struct:lxc_inetdev	typeref:struct:lxc_inetdev::in_addr
+addr	.\conf.h	/^	struct in_addr addr;$/;"	m	struct:lxc_route	typeref:struct:lxc_route::in_addr
+answer	.\commands.h	/^	struct lxc_answer answer;$/;"	m	struct:lxc_command	typeref:struct:lxc_command::lxc_answer
+apparmor_handler_init	.\apparmor.c	/^extern void apparmor_handler_init(struct lxc_handler *handler) {$/;"	f
+apparmor_handler_init	.\apparmor.c	/^extern void apparmor_handler_init(struct lxc_handler *handler)$/;"	f
+apparmor_load	.\apparmor.c	/^extern int apparmor_load(struct lxc_handler *handler)$/;"	f
+apparmor_load	.\apparmor.h	/^static inline int apparmor_load(struct lxc_handler *handler) {$/;"	f
+append	.\log.h	/^	int (*append)(const struct lxc_log_appender *, struct lxc_log_event *);$/;"	m	struct:lxc_log_appender
+appender	.\log.h	/^	struct lxc_log_appender		*appender;$/;"	m	struct:lxc_log_category	typeref:struct:lxc_log_category::lxc_log_appender
+arg	.\namespace.c	/^	void *arg;$/;"	m	struct:clone_arg	file:
+argc	.\arguments.h	/^	int argc;$/;"	m	struct:lxc_arguments
+args	.\lxc_unshare.c	/^	char ***args;$/;"	m	struct:start_arg	file:
+argv	.\arguments.h	/^	char *const *argv;$/;"	m	struct:lxc_arguments
+argv	.\execute.c	/^	char *const *argv;$/;"	m	struct:execute_args	file:
+argv	.\start.c	/^	char *const *argv;$/;"	m	struct:start_args	file:
+attach_apparmor	.\apparmor.c	/^extern int attach_apparmor(char *profile)$/;"	f
+attach_apparmor	.\apparmor.h	/^static inline int attach_apparmor(char *profile) {$/;"	f
+autodev	.\conf.h	/^	int autodev;  \/\/ if 1, mount and fill a \/dev at start$/;"	m	struct:lxc_conf
+bcast	.\conf.h	/^	struct in_addr bcast;$/;"	m	struct:lxc_inetdev	typeref:struct:lxc_inetdev::in_addr
+bionic_alphasort	.\parse.c	/^int bionic_alphasort(const struct dirent** a, const struct dirent** b) {$/;"	f
+build_dir	.\log.c	/^static int build_dir(const char *name)$/;"	f	file:
+build_log_path	.\log.c	/^static char *build_log_path(const char *name)$/;"	f	file:
+build_shortopts	.\arguments.c	/^static int build_shortopts(const struct option *a_options,$/;"	f	file:
+busy	.\conf.h	/^	int busy;$/;"	m	struct:lxc_pty_info
+callback	.\mainloop.c	/^	lxc_mainloop_callback_t callback;$/;"	m	struct:mainloop_handler	file:
+capability_mask	.\attach.h	/^	unsigned long long capability_mask;$/;"	m	struct:lxc_proc_context_info
+caps	.\conf.h	/^	struct lxc_list caps;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_list
+caps_opt	.\conf.c	/^static struct caps_opt caps_opt[] = {$/;"	v	typeref:struct:caps_opt	file:
+caps_opt	.\conf.c	/^static struct caps_opt caps_opt[] = {};$/;"	v	typeref:struct:caps_opt	file:
+caps_opt	.\conf.c	/^struct caps_opt {$/;"	s	file:
+category	.\log.h	/^	const char*		category;$/;"	m	struct:lxc_log_event
+cb	.\confile.h	/^	config_cb cb;$/;"	m	struct:lxc_config_t
+cgroup	.\conf.h	/^	struct lxc_list cgroup;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_list
+cgroup	.\start.h	/^	char *cgroup;$/;"	m	struct:lxc_handler
+cgroup_path_get	.\cgroup.c	/^extern int cgroup_path_get(char **path, const char *subsystem, const char *cgpath)$/;"	f
+check_apparmor_enabled	.\apparmor.c	/^static int check_apparmor_enabled(void)$/;"	f	file:
+checker	.\arguments.h	/^	lxc_arguments_checker_t checker;$/;"	m	struct:lxc_arguments
+choose_init	.\execute.c	/^static char *choose_init(void)$/;"	f	file:
+chroot_into_slave	.\conf.c	/^static int chroot_into_slave(struct lxc_conf *conf)$/;"	f	file:
+clear	.\conf.c	/^	int clear;$/;"	m	struct:mount_opt	file:
+clear_config_item	.\lxccontainer.h	/^	bool (*clear_config_item)(struct lxc_container *c, const char *key);$/;"	m	struct:lxc_container
+clone_arg	.\namespace.c	/^struct clone_arg {$/;"	s	file:
+clone_flags	.\start.h	/^	int clone_flags;$/;"	m	struct:lxc_handler
+cloneflags_list	.\namespace.c	/^static int cloneflags_list[] = {$/;"	v	file:
+close_all_fds	.\arguments.h	/^	int close_all_fds;$/;"	m	struct:lxc_arguments
+close_all_fds	.\conf.h	/^	int close_all_fds;$/;"	m	struct:lxc_conf
+command_fd_cleanup	.\commands.c	/^static void command_fd_cleanup(int fd, struct lxc_handler *handler,$/;"	f	file:
+command_handler	.\commands.c	/^static int command_handler(int fd, void *data, struct lxc_epoll_descr *descr)$/;"	f	file:
+conf	.\start.h	/^	struct lxc_conf *conf;$/;"	m	struct:lxc_handler	typeref:struct:lxc_handler::lxc_conf
+config	.\confile.c	/^static struct lxc_config_t config[] = {$/;"	v	typeref:struct:lxc_config_t	file:
+config_aa_profile	.\confile.c	/^static int config_aa_profile(const char *key, const char *value,$/;"	f	file:
+config_autodev	.\confile.c	/^static int config_autodev(const char *key, const char *value,$/;"	f	file:
+config_cap_drop	.\confile.c	/^static int config_cap_drop(const char *key, const char *value,$/;"	f	file:
+config_cb	.\confile.h	/^typedef int (*config_cb)(const char *, const char *, struct lxc_conf *);$/;"	t
+config_cgroup	.\confile.c	/^static int config_cgroup(const char *key, const char *value,$/;"	f	file:
+config_console	.\confile.c	/^static int config_console(const char *key, const char *value,$/;"	f	file:
+config_file_name	.\lxccontainer.h	/^	char *(*config_file_name)(struct lxc_container *c);$/;"	m	struct:lxc_container
+config_fstab	.\confile.c	/^static int config_fstab(const char *key, const char *value,$/;"	f	file:
+config_hook	.\confile.c	/^static int config_hook(const char *key, const char *value,$/;"	f	file:
+config_idmap	.\confile.c	/^static int config_idmap(const char *key, const char *value, struct lxc_conf *lxc_conf)$/;"	f	file:
+config_includefile	.\confile.c	/^static int config_includefile(const char *key, const char *value,$/;"	f	file:
+config_ip_prefix	.\confile.c	/^static int config_ip_prefix(struct in_addr *addr)$/;"	f	file:
+config_kmsg	.\confile.c	/^static int config_kmsg(const char *key, const char *value,$/;"	f	file:
+config_logfile	.\confile.c	/^static int config_logfile(const char *key, const char *value,$/;"	f	file:
+config_loglevel	.\confile.c	/^static int config_loglevel(const char *key, const char *value,$/;"	f	file:
+config_mount	.\confile.c	/^static int config_mount(const char *key, const char *value,$/;"	f	file:
+config_network_flags	.\confile.c	/^static int config_network_flags(const char *key, const char *value,$/;"	f	file:
+config_network_hwaddr	.\confile.c	/^static int config_network_hwaddr(const char *key, const char *value,$/;"	f	file:
+config_network_ipv4	.\confile.c	/^static int config_network_ipv4(const char *key, const char *value,$/;"	f	file:
+config_network_ipv4_gateway	.\confile.c	/^static int config_network_ipv4_gateway(const char *key, const char *value,$/;"	f	file:
+config_network_ipv6	.\confile.c	/^static int config_network_ipv6(const char *key, const char *value,$/;"	f	file:
+config_network_ipv6_gateway	.\confile.c	/^static int config_network_ipv6_gateway(const char *key, const char *value,$/;"	f	file:
+config_network_link	.\confile.c	/^static int config_network_link(const char *key, const char *value,$/;"	f	file:
+config_network_macvlan_mode	.\confile.c	/^static int config_network_macvlan_mode(const char *key, const char *value,$/;"	f	file:
+config_network_mtu	.\confile.c	/^static int config_network_mtu(const char *key, const char *value,$/;"	f	file:
+config_network_name	.\confile.c	/^static int config_network_name(const char *key, const char *value,$/;"	f	file:
+config_network_nic	.\confile.c	/^static int config_network_nic(const char *key, const char *value,$/;"	f	file:
+config_network_script	.\confile.c	/^static int config_network_script(const char *key, const char *value,$/;"	f	file:
+config_network_type	.\confile.c	/^static int config_network_type(const char *key, const char *value,$/;"	f	file:
+config_network_veth_pair	.\confile.c	/^static int config_network_veth_pair(const char *key, const char *value,$/;"	f	file:
+config_network_vlan_id	.\confile.c	/^static int config_network_vlan_id(const char *key, const char *value,$/;"	f	file:
+config_path	.\lxccontainer.h	/^	char *config_path;$/;"	m	struct:lxc_container
+config_path_item	.\confile.c	/^static int config_path_item(const char *key, const char *value,$/;"	f	file:
+config_personality	.\confile.c	/^static int config_personality(const char *key, const const char *value,$/;"	f	file:
+config_pivotdir	.\confile.c	/^static int config_pivotdir(const char *key, const char *value,$/;"	f	file:
+config_pts	.\confile.c	/^static int config_pts(const char *key, const char *value,$/;"	f	file:
+config_rootfs	.\confile.c	/^static int config_rootfs(const char *key, const char *value,$/;"	f	file:
+config_rootfs_mount	.\confile.c	/^static int config_rootfs_mount(const char *key, const char *value,$/;"	f	file:
+config_seccomp	.\confile.c	/^static int config_seccomp(const char *key, const char *value,$/;"	f	file:
+config_size	.\confile.c	/^static const size_t config_size = sizeof(config)\/sizeof(struct lxc_config_t);$/;"	v	file:
+config_stopsignal	.\confile.c	/^static int config_stopsignal(const char *key, const char *value,$/;"	f	file:
+config_tty	.\confile.c	/^static int config_tty(const char *key, const char *value,$/;"	f	file:
+config_ttydir	.\confile.c	/^static int config_ttydir(const char *key, const char *value,$/;"	f	file:
+config_utsname	.\confile.c	/^static int config_utsname(const char *key, const char *value,$/;"	f	file:
+configfile	.\lxccontainer.h	/^	char *configfile;$/;"	m	struct:lxc_container
+console	.\arguments.h	/^	const char *console;$/;"	m	struct:lxc_arguments
+console	.\conf.h	/^	struct lxc_console console;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_console
+console_handler	.\console.c	/^static int console_handler(int fd, void *data, struct lxc_epoll_descr *descr)$/;"	f	file:
+console_log	.\arguments.h	/^	const char *console_log;$/;"	m	struct:lxc_arguments
+container_reboot_supported	.\start.c	/^static int container_reboot_supported(void *arg)$/;"	f	file:
+container_state	.\lxcutmp.c	/^	char container_state;$/;"	m	struct:lxc_utmp	file:
+copypath	.\utils.c	/^static char *copypath(char *p)$/;"	f	file:
+create	.\lxccontainer.h	/^	bool (*create)(struct lxc_container *c, char *t, char *const argv[]);$/;"	m	struct:lxc_container
+create_container_dir	.\lxccontainer.c	/^static bool create_container_dir(struct lxc_container *c)$/;"	f	file:
+create_lxcgroups	.\cgroup.c	/^static int create_lxcgroups(const char *lxcgroup)$/;"	f	file:
+createl	.\lxccontainer.h	/^	bool (*createl)(struct lxc_container *c, char *t, ...);$/;"	m	struct:lxc_container
+curr_runlevel	.\lxcutmp.c	/^	int prev_runlevel, curr_runlevel;$/;"	m	struct:lxc_utmp	file:
+daemonize	.\arguments.h	/^	int daemonize;$/;"	m	struct:lxc_arguments
+daemonize	.\lxccontainer.h	/^	int daemonize;$/;"	m	struct:lxc_container
+data	.\arguments.h	/^	void *data;$/;"	m	struct:lxc_arguments
+data	.\commands.h	/^	int data;$/;"	m	struct:lxc_request
+data	.\mainloop.c	/^	void *data;$/;"	m	struct:mainloop_handler	file:
+data	.\start.h	/^	void *data;$/;"	m	struct:lxc_handler
+default_lxc_path	.\utils.c	/^const char *default_lxc_path(void)$/;"	f
+default_lxcpath	.\utils.c	/^char *default_lxcpath;$/;"	v
+default_rootfs_mount	.\conf.c	/^static char *default_rootfs_mount = LXCROOTFSMOUNT;$/;"	v	file:
+defines	.\lxc_execute.c	/^static struct lxc_list defines;$/;"	v	typeref:struct:lxc_list	file:
+defines	.\lxc_restart.c	/^static struct lxc_list defines;$/;"	v	typeref:struct:lxc_list	file:
+defines	.\lxc_start.c	/^static struct lxc_list defines;$/;"	v	typeref:struct:lxc_list	file:
+destroy	.\lxccontainer.h	/^	bool (*destroy)(struct lxc_container *c);$/;"	m	struct:lxc_container
+detect_shared_rootfs	.\conf.c	/^int detect_shared_rootfs(void)$/;"	f
+dir_filter	.\parse.c	/^static int dir_filter(const struct dirent *dirent)$/;"	f	file:
+do_apparmor_load	.\apparmor.c	/^extern int do_apparmor_load(int aa_enabled, char *aa_profile,$/;"	f
+do_apparmor_load	.\apparmor.h	/^static inline int do_apparmor_load(int aa_enabled, char *aa_profile,$/;"	f
+do_cgroup_set	.\cgroup.c	/^static int do_cgroup_set(const char *path, const char *value)$/;"	f	file:
+do_clone	.\namespace.c	/^static int do_clone(void *arg)$/;"	f	file:
+do_lxc_log_set_file	.\log.c	/^int do_lxc_log_set_file(const char *fname, int from_default)$/;"	f
+do_start	.\lxc_unshare.c	/^static int do_start(void *arg)$/;"	f	file:
+do_start	.\start.c	/^static int do_start(void *data)$/;"	f	file:
+do_unfreeze	.\freezer.c	/^static int do_unfreeze(const char *nsgroup, int freeze, const char *name, const char *lxcpath)$/;"	f	file:
+downscript	.\conf.h	/^	char *downscript;$/;"	m	struct:lxc_netdev
+elem	.\list.h	/^	void *elem;$/;"	m	struct:lxc_list
+elevated_privileges	.\lxc_attach.c	/^static int elevated_privileges = 0;$/;"	v	file:
+endutxent	.\lxcutmp.c	/^static void endutxent (void) {$/;"	f	file:
+ensure_path	.\lxc_start.c	/^static int ensure_path(char **confpath, const char *path)$/;"	f	file:
+env_policy	.\lxc_attach.c	/^static lxc_attach_env_policy_t env_policy = LXC_ATTACH_KEEP_ENV;$/;"	v	file:
+epfd	.\mainloop.h	/^	int epfd;$/;"	m	struct:lxc_epoll_descr
+error_num	.\lxccontainer.h	/^	int error_num;$/;"	m	struct:lxc_container
+error_string	.\lxccontainer.h	/^	char *error_string;$/;"	m	struct:lxc_container
+escape	.\arguments.h	/^	char escape;$/;"	m	struct:lxc_arguments
+etoc	.\lxc_console.c	/^static char etoc(const char *expr)$/;"	f	file:
+execute_args	.\execute.c	/^struct execute_args {$/;"	s	file:
+execute_post_start	.\execute.c	/^static int execute_post_start(struct lxc_handler *handler, void* data)$/;"	f	file:
+execute_start	.\execute.c	/^static int execute_start(struct lxc_handler *handler, void* data)$/;"	f	file:
+execute_start_ops	.\execute.c	/^static struct lxc_operations execute_start_ops = {$/;"	v	typeref:struct:lxc_operations	file:
+family	.\genl.h	/^	int family;$/;"	m	struct:genl_handler
+fd	.\commands.h	/^	int fd;$/;"	m	struct:lxc_answer
+fd	.\mainloop.c	/^	int fd;$/;"	m	struct:mainloop_handler	file:
+fd	.\nl.h	/^        int fd;$/;"	m	struct:nl_handler
+file	.\log.h	/^	const char	*file;$/;"	m	struct:lxc_log_locinfo
+file_exists	.\lxccontainer.c	/^static bool file_exists(char *f)$/;"	f	file:
+fill_sock_name	.\commands.c	/^static int fill_sock_name(char *path, int len, const char *name,$/;"	f	file:
+fillwaitedstates	.\state.c	/^static int fillwaitedstates(const char *strstates, int *states)$/;"	f	file:
+find_fstype_cb	.\conf.c	/^static int find_fstype_cb(char* buffer, void *data)$/;"	f	file:
+flag	.\conf.c	/^	int flag;$/;"	m	struct:mount_opt	file:
+flags	.\arguments.h	/^	int flags;$/;"	m	struct:lxc_arguments
+flags	.\conf.h	/^	int flags;$/;"	m	struct:lxc_netdev
+flags	.\conf.h	/^	uint   flags;$/;"	m	struct:ifla_vlan
+flags	.\lxc_unshare.c	/^	int *flags;$/;"	m	struct:start_arg	file:
+flags	.\restart.c	/^	int flags;$/;"	m	struct:restart_args	file:
+fmask	.\conf.h	/^	uint   fmask;$/;"	m	struct:ifla_vlan
+fmt	.\log.h	/^	const char		*fmt;$/;"	m	struct:lxc_log_event
+fn	.\namespace.c	/^	int (*fn)(void *);$/;"	m	struct:clone_arg	file:
+freeze	.\lxccontainer.h	/^	bool (*freeze)(struct lxc_container *c);$/;"	m	struct:lxc_container
+freeze_unfreeze	.\freezer.c	/^static int freeze_unfreeze(const char *name, int freeze, const char *lxcpath)$/;"	f	file:
+freezer_state	.\state.c	/^static int freezer_state(const char *name, const char *lxcpath)$/;"	f	file:
+fstab	.\conf.h	/^	char *fstab;$/;"	m	struct:lxc_conf
+func	.\log.h	/^	const char	*func;$/;"	m	struct:lxc_log_locinfo
+genetlink_close	.\genl.c	/^extern int genetlink_close(struct genl_handler *handler)$/;"	f
+genetlink_len	.\genl.h	/^static inline int genetlink_len(const struct genlmsg *genlmsg)$/;"	f
+genetlink_open	.\genl.c	/^extern int genetlink_open(struct genl_handler *handler, const char *family)$/;"	f
+genetlink_rcv	.\genl.c	/^extern int genetlink_rcv(struct genl_handler *handler, struct genlmsg *genlmsg)$/;"	f
+genetlink_resolve_family	.\genl.c	/^static int genetlink_resolve_family(const char *family)$/;"	f	file:
+genetlink_send	.\genl.c	/^extern int genetlink_send(struct genl_handler *handler, struct genlmsg *genlmsg)$/;"	f
+genetlink_transaction	.\genl.c	/^extern int genetlink_transaction(struct genl_handler *handler,$/;"	f
+genl_handler	.\genl.h	/^struct genl_handler$/;"	s
+genlmsg	.\genl.h	/^struct genlmsg {$/;"	s
+genlmsg_alloc	.\genl.c	/^extern struct genlmsg *genlmsg_alloc(size_t size)$/;"	f
+genlmsg_free	.\genl.c	/^extern void genlmsg_free(struct genlmsg *genlmsg)$/;"	f
+genlmsghdr	.\genl.h	/^	struct genlmsghdr genlmsghdr;$/;"	m	struct:genlmsg	typeref:struct:genlmsg::genlmsghdr
+get_cgroup_item	.\lxccontainer.h	/^	int (*get_cgroup_item)(struct lxc_container *c, const char *subsys, char *retv, int inlen);$/;"	m	struct:lxc_container
+get_cgroup_mount	.\cgroup.c	/^static int get_cgroup_mount(const char *subsystem, char *mnt)$/;"	f	file:
+get_config_item	.\lxccontainer.h	/^	int (*get_config_item)(struct lxc_container *c, const char *key, char *retv, int inlen);$/;"	m	struct:lxc_container
+get_config_path	.\lxccontainer.h	/^	const char *(*get_config_path)(struct lxc_container *c);$/;"	m	struct:lxc_container
+get_default_console	.\console.c	/^static int get_default_console(char **console)$/;"	f	file:
+get_init_pid	.\commands.c	/^pid_t get_init_pid(const char *name, const char *lxcpath)$/;"	f
+get_keys	.\lxccontainer.h	/^	int (*get_keys)(struct lxc_container *c, const char *key, char *retv, int inlen);$/;"	m	struct:lxc_container
+get_netdev_from_key	.\confile.c	/^static struct lxc_netdev *get_netdev_from_key(const char *key,$/;"	f	file:
+get_network_netdev_idx	.\confile.c	/^static int get_network_netdev_idx(const char *key)$/;"	f	file:
+get_u16	.\utils.c	/^extern int get_u16(unsigned short *val, const char *arg, int base)$/;"	f
+getutxent	.\lxcutmp.c	/^static struct utmp * getutxent (void) {$/;"	f	file:
+handler	.\lxcutmp.c	/^	struct lxc_handler *handler;$/;"	m	struct:lxc_utmp	typeref:struct:lxc_utmp::lxc_handler	file:
+handlers	.\mainloop.h	/^	struct lxc_list handlers;$/;"	m	struct:lxc_epoll_descr	typeref:struct:lxc_epoll_descr::lxc_list
+help	.\arguments.h	/^	const char *help;$/;"	m	struct:lxc_arguments
+hooks	.\conf.h	/^	struct lxc_list hooks[NUM_LXC_HOOKS];$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_list
+hostid	.\conf.h	/^	unsigned long hostid, nsid, range;$/;"	m	struct:id_map
+hwaddr	.\conf.h	/^	char *hwaddr;$/;"	m	struct:lxc_netdev
+id_map	.\conf.h	/^	struct lxc_list id_map;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_list
+id_map	.\conf.h	/^struct id_map {$/;"	s
+idtype	.\conf.h	/^	enum idtype idtype;$/;"	m	struct:id_map	typeref:enum:id_map::idtype
+idtype	.\conf.h	/^enum idtype {$/;"	g
+ifa	.\network.c	/^	struct ifaddrmsg ifa;$/;"	m	struct:ip_req	typeref:struct:ip_req::ifaddrmsg	file:
+ifa_get_local_ip	.\network.c	/^static int ifa_get_local_ip(int family, struct ip_req *ip_info, void** res) {$/;"	f	file:
+ifindex	.\conf.h	/^	int ifindex;$/;"	m	struct:lxc_netdev
+ifindex	.\conf.h	/^	int ifindex;$/;"	m	struct:saved_nic
+ifinfomsg	.\network.c	/^	struct ifinfomsg ifinfomsg;$/;"	m	struct:link_req	typeref:struct:link_req::ifinfomsg	file:
+ifla_macvlan	.\conf.h	/^struct ifla_macvlan {$/;"	s
+ifla_veth	.\conf.h	/^struct ifla_veth {$/;"	s
+ifla_vlan	.\conf.h	/^struct ifla_vlan {$/;"	s
+incoming_command_handler	.\commands.c	/^static int incoming_command_handler(int fd, void *data,$/;"	f	file:
+init_pid	.\lxccontainer.h	/^	pid_t (*init_pid)(struct lxc_container *c);$/;"	m	struct:lxc_container
+instanciate_cb	.\conf.c	/^typedef int (*instanciate_cb)(struct lxc_handler *, struct lxc_netdev *);$/;"	t	file:
+instanciate_empty	.\conf.c	/^static int instanciate_empty(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+instanciate_macvlan	.\conf.c	/^static int instanciate_macvlan(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+instanciate_phys	.\conf.c	/^static int instanciate_phys(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+instanciate_veth	.\conf.c	/^static int instanciate_veth(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+instanciate_vlan	.\conf.c	/^static int instanciate_vlan(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+ip_addr_add	.\network.c	/^static int ip_addr_add(int family, int ifindex,$/;"	f	file:
+ip_addr_get	.\network.c	/^static int ip_addr_get(int family, int ifindex, void **res)$/;"	f	file:
+ip_forward_set	.\network.c	/^static int ip_forward_set(const char *ifname, int family, int flag)$/;"	f	file:
+ip_gateway_add	.\network.c	/^static int ip_gateway_add(int family, int ifindex, void *gw)$/;"	f	file:
+ip_req	.\network.c	/^struct ip_req {$/;"	s	file:
+ipv4	.\conf.h	/^	struct lxc_list ipv4;$/;"	m	struct:lxc_netdev	typeref:struct:lxc_netdev::lxc_list
+ipv4_gateway	.\conf.h	/^	struct in_addr *ipv4_gateway;$/;"	m	struct:lxc_netdev	typeref:struct:lxc_netdev::in_addr
+ipv4_gateway_auto	.\conf.h	/^	bool ipv4_gateway_auto;$/;"	m	struct:lxc_netdev
+ipv6	.\conf.h	/^	struct lxc_list ipv6;$/;"	m	struct:lxc_netdev	typeref:struct:lxc_netdev::lxc_list
+ipv6_gateway	.\conf.h	/^	struct in6_addr *ipv6_gateway;$/;"	m	struct:lxc_netdev	typeref:struct:lxc_netdev::in6_addr
+ipv6_gateway_auto	.\conf.h	/^	bool ipv6_gateway_auto;$/;"	m	struct:lxc_netdev
+is_defined	.\lxccontainer.h	/^	bool (*is_defined)(struct lxc_container *c);  \/\/ did \/var\/lib\/lxc\/$name\/config exist$/;"	m	struct:lxc_container
+is_running	.\lxccontainer.h	/^	bool (*is_running)(struct lxc_container *c);  \/\/ true so long as defined and not stopped$/;"	m	struct:lxc_container
+is_stopped_nolock	.\lxccontainer.c	/^static bool is_stopped_nolock(struct lxc_container *c)$/;"	f	file:
+kmsg	.\conf.h	/^	int kmsg;  \/\/ if 1, create \/dev\/kmsg symlink$/;"	m	struct:lxc_conf
+line	.\log.h	/^	int		line;$/;"	m	struct:lxc_log_locinfo
+link	.\conf.h	/^	char *link;$/;"	m	struct:lxc_netdev
+link_req	.\network.c	/^struct link_req {$/;"	s	file:
+load_config	.\lxccontainer.h	/^	bool (*load_config)(struct lxc_container *c, const char *alt_file);$/;"	m	struct:lxc_container
+load_config_locked	.\lxccontainer.c	/^static bool load_config_locked(struct lxc_container *c, const char *fname)$/;"	f	file:
+local	.\nl.h	/^        struct sockaddr_nl local;$/;"	m	struct:nl_handler	typeref:struct:nl_handler::sockaddr_nl
+locinfo	.\log.h	/^	struct lxc_log_locinfo	*locinfo;$/;"	m	struct:lxc_log_event	typeref:struct:lxc_log_event::lxc_log_locinfo
+log_append_logfile	.\log.c	/^static int log_append_logfile(const struct lxc_log_appender *appender,$/;"	f	file:
+log_append_stderr	.\log.c	/^static int log_append_stderr(const struct lxc_log_appender *appender,$/;"	f	file:
+log_appender_logfile	.\log.c	/^static struct lxc_log_appender log_appender_logfile = {$/;"	v	typeref:struct:lxc_log_appender	file:
+log_appender_stderr	.\log.c	/^static struct lxc_log_appender log_appender_stderr = {$/;"	v	typeref:struct:lxc_log_appender	file:
+log_fd	.\conf.h	/^	int log_fd;$/;"	m	struct:lxc_console
+log_file	.\arguments.h	/^	char *log_file;$/;"	m	struct:lxc_arguments
+log_fname	.\log.c	/^char *log_fname;  \/\/ default to NULL, set in lxc_log_set_file.$/;"	v
+log_open	.\log.c	/^static int log_open(const char *name)$/;"	f	file:
+log_path	.\conf.h	/^	char *log_path;$/;"	m	struct:lxc_console
+log_prefix	.\log.c	/^static char log_prefix[LXC_LOG_PREFIX_SIZE] = "lxc";$/;"	v	file:
+log_priority	.\arguments.h	/^	char *log_priority;$/;"	m	struct:lxc_arguments
+log_root	.\log.c	/^static struct lxc_log_category log_root = {$/;"	v	typeref:struct:lxc_log_category	file:
+lookup_user	.\lxc_unshare.c	/^static uid_t lookup_user(const char *optarg)$/;"	f	file:
+lsm_mount_proc_if_needed	.\apparmor.c	/^extern int lsm_mount_proc_if_needed(char *root_src, char *rootfs_tgt)$/;"	f
+lsm_mount_proc_if_needed	.\apparmor.h	/^static inline int lsm_mount_proc_if_needed(char *root_src, char *rootfs_tgt) {$/;"	f
+lsm_umount_proc	.\conf.h	/^	int lsm_umount_proc;$/;"	m	struct:lxc_conf
+lxc_abort	.\start.c	/^void lxc_abort(const char *name, struct lxc_handler *handler)$/;"	f
+lxc_af_unix_close	.\af_unix.c	/^int lxc_af_unix_close(int fd)$/;"	f
+lxc_af_unix_connect	.\af_unix.c	/^int lxc_af_unix_connect(const char *path)$/;"	f
+lxc_af_unix_open	.\af_unix.c	/^int lxc_af_unix_open(const char *path, int type, int flags)$/;"	f
+lxc_af_unix_rcv_credential	.\af_unix.c	/^int lxc_af_unix_rcv_credential(int fd, void *data, size_t size)$/;"	f
+lxc_af_unix_recv_fd	.\af_unix.c	/^int lxc_af_unix_recv_fd(int fd, int *recvfd, void *data, size_t size)$/;"	f
+lxc_af_unix_send_credential	.\af_unix.c	/^int lxc_af_unix_send_credential(int fd, void *data, size_t size)$/;"	f
+lxc_af_unix_send_fd	.\af_unix.c	/^int lxc_af_unix_send_fd(int fd, int sendfd, void *data, size_t size)$/;"	f
+lxc_answer	.\commands.h	/^struct lxc_answer {$/;"	s
+lxc_arguments	.\arguments.h	/^struct lxc_arguments {$/;"	s
+lxc_arguments_checker_t	.\arguments.h	/^typedef int (*lxc_arguments_checker_t) (const struct lxc_arguments *);$/;"	t
+lxc_arguments_parse	.\arguments.c	/^extern int lxc_arguments_parse(struct lxc_arguments *args,$/;"	f
+lxc_arguments_parser_t	.\arguments.h	/^typedef int (*lxc_arguments_parser_t) (struct lxc_arguments *, int, char*);$/;"	t
+lxc_arguments_str_to_int	.\arguments.c	/^int lxc_arguments_str_to_int(struct lxc_arguments *args, const char *str)$/;"	f
+lxc_assign_network	.\conf.c	/^int lxc_assign_network(struct lxc_list *network, pid_t pid)$/;"	f
+lxc_attach_drop_privs	.\attach.c	/^int lxc_attach_drop_privs(struct lxc_proc_context_info *ctx)$/;"	f
+lxc_attach_env_policy_t	.\attach.h	/^typedef enum lxc_attach_env_policy_t {$/;"	g
+lxc_attach_env_policy_t	.\attach.h	/^} lxc_attach_env_policy_t;$/;"	t	typeref:enum:lxc_attach_env_policy_t
+lxc_attach_get_init_uidgid	.\attach.c	/^void lxc_attach_get_init_uidgid(uid_t* init_uid, gid_t* init_gid)$/;"	f
+lxc_attach_getpwshell	.\attach.c	/^char *lxc_attach_getpwshell(uid_t uid)$/;"	f
+lxc_attach_remount_sys_proc	.\attach.c	/^int lxc_attach_remount_sys_proc()$/;"	f
+lxc_attach_set_environment	.\attach.c	/^int lxc_attach_set_environment(enum lxc_attach_env_policy_t policy, char** extra_env, char** extra_keep)$/;"	f
+lxc_attach_to_ns	.\attach.c	/^int lxc_attach_to_ns(pid_t pid, int which)$/;"	f
+lxc_bridge_attach	.\network.c	/^int lxc_bridge_attach(const char *bridge, const char *ifname)$/;"	f
+lxc_caps_check	.\caps.c	/^int lxc_caps_check(void)$/;"	f
+lxc_caps_check	.\caps.h	/^static inline int lxc_caps_check(void) {$/;"	f
+lxc_caps_down	.\caps.c	/^int lxc_caps_down(void)$/;"	f
+lxc_caps_down	.\caps.h	/^static inline int lxc_caps_down(void) {$/;"	f
+lxc_caps_init	.\caps.c	/^int lxc_caps_init(void)$/;"	f
+lxc_caps_init	.\caps.h	/^static inline int lxc_caps_init(void) {$/;"	f
+lxc_caps_last_cap	.\caps.c	/^int lxc_caps_last_cap(void)$/;"	f
+lxc_caps_last_cap	.\caps.h	/^static inline int lxc_caps_last_cap(void) {$/;"	f
+lxc_caps_reset	.\caps.c	/^int lxc_caps_reset(void)$/;"	f
+lxc_caps_reset	.\caps.h	/^static inline int lxc_caps_reset(void) {$/;"	f
+lxc_caps_up	.\caps.c	/^int lxc_caps_up(void)$/;"	f
+lxc_caps_up	.\caps.h	/^static inline int lxc_caps_up(void) {$/;"	f
+lxc_cgroup	.\conf.h	/^struct lxc_cgroup {$/;"	s
+lxc_cgroup_attach	.\cgroup.c	/^int lxc_cgroup_attach(pid_t pid, const char *name, const char *lxcpath)$/;"	f
+lxc_cgroup_callback	.\start.c	/^int lxc_cgroup_callback(int fd, struct lxc_request *request,$/;"	f
+lxc_cgroup_destroy	.\cgroup.c	/^int lxc_cgroup_destroy(const char *cgpath)$/;"	f
+lxc_cgroup_enter	.\cgroup.c	/^int lxc_cgroup_enter(const char *cgpath, pid_t pid)$/;"	f
+lxc_cgroup_get	.\cgroup.c	/^int lxc_cgroup_get(const char *name, const char *filename, char *value,$/;"	f
+lxc_cgroup_nrtasks	.\cgroup.c	/^int lxc_cgroup_nrtasks(const char *cgpath)$/;"	f
+lxc_cgroup_path_create	.\cgroup.c	/^char *lxc_cgroup_path_create(const char *lxcgroup, const char *name)$/;"	f
+lxc_cgroup_path_get	.\cgroup.c	/^int lxc_cgroup_path_get(char **path, const char *subsystem, const char *name, const char *lxcpath)$/;"	f
+lxc_cgroup_set	.\cgroup.c	/^int lxc_cgroup_set(const char *name, const char *filename, const char *value,$/;"	f
+lxc_cgroup_set_bypath	.\cgroup.c	/^int lxc_cgroup_set_bypath(const char *cgpath, const char *filename, const char *value)$/;"	f
+lxc_char_left_gc	.\parse.c	/^int lxc_char_left_gc(char *buffer, size_t len)$/;"	f
+lxc_char_right_gc	.\parse.c	/^int lxc_char_right_gc(char *buffer, size_t len)$/;"	f
+lxc_check_inherited	.\start.c	/^int lxc_check_inherited(struct lxc_conf *conf, int fd_to_ignore)$/;"	f
+lxc_checkpoint	.\checkpoint.c	/^int lxc_checkpoint(const char *name, int sfd, int flags)$/;"	f
+lxc_clear_cgroups	.\conf.c	/^int lxc_clear_cgroups(struct lxc_conf *c, const char *key)$/;"	f
+lxc_clear_config_caps	.\conf.c	/^int lxc_clear_config_caps(struct lxc_conf *c)$/;"	f
+lxc_clear_config_item	.\confile.c	/^int lxc_clear_config_item(struct lxc_conf *c, const char *key)$/;"	f
+lxc_clear_config_network	.\conf.c	/^int lxc_clear_config_network(struct lxc_conf *c)$/;"	f
+lxc_clear_hooks	.\conf.c	/^int lxc_clear_hooks(struct lxc_conf *c, const char *key)$/;"	f
+lxc_clear_mount_entries	.\conf.c	/^int lxc_clear_mount_entries(struct lxc_conf *c)$/;"	f
+lxc_clear_nic	.\conf.c	/^int lxc_clear_nic(struct lxc_conf *c, const char *key)$/;"	f
+lxc_clear_saved_nics	.\conf.c	/^void lxc_clear_saved_nics(struct lxc_conf *conf)$/;"	f
+lxc_clone	.\namespace.c	/^pid_t lxc_clone(int (*fn)(void *), void *arg, int flags)$/;"	f
+lxc_clone_flags_callback	.\start.c	/^int lxc_clone_flags_callback(int fd, struct lxc_request *request,$/;"	f
+lxc_command	.\commands.c	/^extern int lxc_command(const char *name,$/;"	f
+lxc_command	.\commands.h	/^struct lxc_command {$/;"	s
+lxc_command_connected	.\commands.c	/^extern int lxc_command_connected(const char *name,$/;"	f
+lxc_command_init	.\commands.c	/^extern int lxc_command_init(const char *name, struct lxc_handler *handler,$/;"	f
+lxc_command_mainloop_add	.\commands.c	/^extern int lxc_command_mainloop_add(const char *name,$/;"	f
+lxc_conf	.\conf.h	/^struct lxc_conf {$/;"	s
+lxc_conf	.\lxccontainer.h	/^	struct lxc_conf *lxc_conf; \/\/ maybe we'll just want the whole lxc_handler?$/;"	m	struct:lxc_container	typeref:struct:lxc_container::lxc_conf
+lxc_conf_free	.\conf.c	/^void lxc_conf_free(struct lxc_conf *conf)$/;"	f
+lxc_conf_init	.\conf.c	/^struct lxc_conf *lxc_conf_init(void)$/;"	f
+lxc_config_define_add	.\confile.c	/^int lxc_config_define_add(struct lxc_list *defines, char* arg)$/;"	f
+lxc_config_define_load	.\confile.c	/^int lxc_config_define_load(struct lxc_list *defines, struct lxc_conf *conf)$/;"	f
+lxc_config_parse_arch	.\confile.c	/^signed long lxc_config_parse_arch(const char *arch)$/;"	f
+lxc_config_read	.\confile.c	/^int lxc_config_read(const char *file, struct lxc_conf *conf)$/;"	f
+lxc_config_readline	.\confile.c	/^int lxc_config_readline(char *buffer, struct lxc_conf *conf)$/;"	f
+lxc_config_t	.\confile.h	/^struct lxc_config_t {$/;"	s
+lxc_console	.\conf.h	/^struct lxc_console {$/;"	s
+lxc_console	.\console.c	/^extern int lxc_console(const char *name, int ttynum, int *fd, const char *lxcpath)$/;"	f
+lxc_console_callback	.\console.c	/^extern int lxc_console_callback(int fd, struct lxc_request *request,$/;"	f
+lxc_console_mainloop_add	.\console.c	/^int lxc_console_mainloop_add(struct lxc_epoll_descr *descr,$/;"	f
+lxc_console_remove_fd	.\console.c	/^extern void lxc_console_remove_fd(int fd, struct lxc_tty_info *tty_info)$/;"	f
+lxc_container	.\lxccontainer.h	/^struct lxc_container {$/;"	s
+lxc_container_free	.\lxccontainer.c	/^static void lxc_container_free(struct lxc_container *c)$/;"	f	file:
+lxc_container_get	.\lxccontainer.c	/^int lxc_container_get(struct lxc_container *c)$/;"	f
+lxc_container_new	.\lxccontainer.c	/^struct lxc_container *lxc_container_new(const char *name, const char *configpath)$/;"	f
+lxc_container_put	.\lxccontainer.c	/^int lxc_container_put(struct lxc_container *c)$/;"	f
+lxc_convert_mac	.\network.c	/^int lxc_convert_mac(char *macaddr, struct sockaddr *sockaddr)$/;"	f
+lxc_copy_file	.\utils.c	/^int lxc_copy_file(const char *srcfile, const char *dstfile)$/;"	f
+lxc_create_console	.\console.c	/^int lxc_create_console(struct lxc_conf *conf)$/;"	f
+lxc_create_network	.\conf.c	/^int lxc_create_network(struct lxc_handler *handler)$/;"	f
+lxc_create_tty	.\conf.c	/^int lxc_create_tty(const char *name, struct lxc_conf *conf)$/;"	f
+lxc_delete_console	.\console.c	/^void lxc_delete_console(struct lxc_console *console)$/;"	f
+lxc_delete_network	.\conf.c	/^void lxc_delete_network(struct lxc_handler *handler)$/;"	f
+lxc_delete_tty	.\conf.c	/^void lxc_delete_tty(struct lxc_tty_info *tty_info)$/;"	f
+lxc_devs	.\conf.c	/^struct lxc_devs lxc_devs[] = {$/;"	v	typeref:struct:lxc_devs
+lxc_devs	.\conf.c	/^struct lxc_devs {$/;"	s	file:
+lxc_dir_cb	.\parse.h	/^typedef int (*lxc_dir_cb)(const char *name, const char *directory,$/;"	t
+lxc_dir_for_each	.\parse.c	/^int lxc_dir_for_each(const char *name, const char *directory,$/;"	f
+lxc_epoll_descr	.\mainloop.h	/^struct lxc_epoll_descr {$/;"	s
+lxc_error	.\arguments.h	96;"	d
+lxc_error_set_and_log	.\error.c	/^extern int  lxc_error_set_and_log(int pid, int status)$/;"	f
+lxc_execute	.\execute.c	/^int lxc_execute(const char *name, char *const argv[], int quiet,$/;"	f
+lxc_file_cb	.\parse.h	/^typedef int (*lxc_file_cb)(char *buffer, void *data);$/;"	t
+lxc_file_for_each_line	.\parse.c	/^int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)$/;"	f
+lxc_fill_namespace_flags	.\namespace.c	/^int lxc_fill_namespace_flags(char *flaglist, int *flags)$/;"	f
+lxc_find_gateway_addresses	.\conf.c	/^int lxc_find_gateway_addresses(struct lxc_handler *handler)$/;"	f
+lxc_fini	.\start.c	/^static void lxc_fini(const char *name, struct lxc_handler *handler)$/;"	f	file:
+lxc_freeze	.\freezer.c	/^int lxc_freeze(const char *name, const char *lxcpath)$/;"	f
+lxc_get_arch_entry	.\confile.c	/^static int lxc_get_arch_entry(struct lxc_conf *c, char *retv, int inlen)$/;"	f	file:
+lxc_get_cgpath	.\cgroup.c	/^extern int lxc_get_cgpath(const char **path, const char *subsystem, const char *name, const char *lxcpath)$/;"	f
+lxc_get_cgroup_entry	.\confile.c	/^static int lxc_get_cgroup_entry(struct lxc_conf *c, char *retv, int inlen,$/;"	f	file:
+lxc_get_clone_flags	.\commands.c	/^int lxc_get_clone_flags(const char *name, const char *lxcpath)$/;"	f
+lxc_get_conf_int	.\confile.c	/^static int lxc_get_conf_int(struct lxc_conf *c, char *retv, int inlen, int v)$/;"	f	file:
+lxc_get_config_item	.\confile.c	/^int lxc_get_config_item(struct lxc_conf *c, const char *key, char *retv,$/;"	f
+lxc_get_default_config_path	.\lxccontainer.c	/^const char *lxc_get_default_config_path(void)$/;"	f
+lxc_get_item_cap_drop	.\confile.c	/^static int lxc_get_item_cap_drop(struct lxc_conf *c, char *retv, int inlen)$/;"	f	file:
+lxc_get_item_hooks	.\confile.c	/^static int lxc_get_item_hooks(struct lxc_conf *c, char *retv, int inlen,$/;"	f	file:
+lxc_get_item_network	.\confile.c	/^static int lxc_get_item_network(struct lxc_conf *c, char *retv, int inlen)$/;"	f	file:
+lxc_get_item_nic	.\confile.c	/^static int lxc_get_item_nic(struct lxc_conf *c, char *retv, int inlen,$/;"	f	file:
+lxc_get_mount_entries	.\confile.c	/^static int lxc_get_mount_entries(struct lxc_conf *c, char *retv, int inlen)$/;"	f	file:
+lxc_get_version	.\lxccontainer.c	/^const char *lxc_get_version(void)$/;"	f
+lxc_get_wait_states	.\lxccontainer.c	/^int lxc_get_wait_states(const char **states)$/;"	f
+lxc_getconfig	.\confile.c	/^extern struct lxc_config_t *lxc_getconfig(const char *key)$/;"	f
+lxc_getstate	.\state.c	/^lxc_state_t lxc_getstate(const char *name, const char *lxcpath)$/;"	f
+lxc_handler	.\start.h	/^struct lxc_handler {$/;"	s
+lxc_inet6dev	.\conf.h	/^struct lxc_inet6dev {$/;"	s
+lxc_inetdev	.\conf.h	/^struct lxc_inetdev {$/;"	s
+lxc_init	.\start.c	/^struct lxc_handler *lxc_init(const char *name, struct lxc_conf *conf, const char *lxcpath)$/;"	f
+lxc_init_list	.\list.h	10;"	d
+lxc_ip_forward_off	.\network.c	/^int lxc_ip_forward_off(const char *ifname, int family)$/;"	f
+lxc_ip_forward_on	.\network.c	/^int lxc_ip_forward_on(const char *ifname, int family)$/;"	f
+lxc_ipv4_addr_add	.\network.c	/^int lxc_ipv4_addr_add(int ifindex, struct in_addr *addr,$/;"	f
+lxc_ipv4_addr_get	.\network.c	/^int lxc_ipv4_addr_get(int ifindex, struct in_addr** res)$/;"	f
+lxc_ipv4_gateway_add	.\network.c	/^int lxc_ipv4_gateway_add(int ifindex, struct in_addr *gw)$/;"	f
+lxc_ipv6_addr_add	.\network.c	/^int lxc_ipv6_addr_add(int ifindex, struct in6_addr *addr,$/;"	f
+lxc_ipv6_addr_get	.\network.c	/^int lxc_ipv6_addr_get(int ifindex, struct in6_addr **res)$/;"	f
+lxc_ipv6_gateway_add	.\network.c	/^int lxc_ipv6_gateway_add(int ifindex, struct in6_addr *gw)$/;"	f
+lxc_is_line_empty	.\parse.c	/^int lxc_is_line_empty(char *line)$/;"	f
+lxc_list	.\list.h	/^struct lxc_list {$/;"	s
+lxc_list_add	.\list.h	/^static inline void lxc_list_add(struct lxc_list *head, struct lxc_list *list)$/;"	f
+lxc_list_add_elem	.\list.h	/^static inline void lxc_list_add_elem(struct lxc_list *list, void *elem)$/;"	f
+lxc_list_add_tail	.\list.h	/^static inline void lxc_list_add_tail(struct lxc_list *head,$/;"	f
+lxc_list_del	.\list.h	/^static inline void lxc_list_del(struct lxc_list *list)$/;"	f
+lxc_list_empty	.\list.h	/^static inline int lxc_list_empty(struct lxc_list *list)$/;"	f
+lxc_list_first_elem	.\list.h	/^static inline void *lxc_list_first_elem(struct lxc_list *list)$/;"	f
+lxc_list_for_each	.\list.h	12;"	d
+lxc_list_for_each_safe	.\list.h	17;"	d
+lxc_list_init	.\list.h	/^static inline void lxc_list_init(struct lxc_list *list)$/;"	f
+lxc_list_last_elem	.\list.h	/^static inline void *lxc_list_last_elem(struct lxc_list *list)$/;"	f
+lxc_list_nicconfigs	.\confile.c	/^extern int lxc_list_nicconfigs(struct lxc_conf *c, const char *key,$/;"	f
+lxc_listconfigs	.\confile.c	/^int lxc_listconfigs(char *retv, int inlen)$/;"	f
+lxc_log_appender	.\log.h	/^struct lxc_log_appender {$/;"	s
+lxc_log_category	.\log.h	/^struct lxc_log_category {$/;"	s
+lxc_log_category_define	.\log.h	207;"	d
+lxc_log_category_lxc	.\log.c	/^struct lxc_log_category lxc_log_category_lxc = {$/;"	v	typeref:struct:lxc_log_category
+lxc_log_category_priority	.\log.h	229;"	d
+lxc_log_define	.\log.h	216;"	d
+lxc_log_event	.\log.h	/^struct lxc_log_event {$/;"	s
+lxc_log_fd	.\log.c	/^int lxc_log_fd = -1;$/;"	v
+lxc_log_get_file	.\log.c	/^extern const char *lxc_log_get_file(void)$/;"	f
+lxc_log_get_level	.\log.c	/^extern int lxc_log_get_level(void)$/;"	f
+lxc_log_init	.\log.c	/^extern int lxc_log_init(const char *name, const char *file,$/;"	f
+lxc_log_locinfo	.\log.h	/^struct lxc_log_locinfo {$/;"	s
+lxc_log_priority_define	.\log.h	177;"	d
+lxc_log_priority_is_enabled	.\log.h	/^lxc_log_priority_is_enabled(const struct lxc_log_category* category,$/;"	f
+lxc_log_priority_to_int	.\log.h	/^static inline int lxc_log_priority_to_int(const char* name)$/;"	f
+lxc_log_priority_to_string	.\log.h	/^static inline const char* lxc_log_priority_to_string(int priority)$/;"	f
+lxc_log_set_file	.\log.c	/^extern int lxc_log_set_file(const char *fname)$/;"	f
+lxc_log_set_level	.\log.c	/^extern int lxc_log_set_level(int level)$/;"	f
+lxc_log_setprefix	.\log.c	/^extern void lxc_log_setprefix(const char *prefix)$/;"	f
+lxc_log_specified	.\log.c	/^static int lxc_log_specified = 0;$/;"	v	file:
+lxc_loglevel	.\log.h	/^enum lxc_loglevel {$/;"	g
+lxc_loglevel_specified	.\log.c	/^static int lxc_loglevel_specified = 0;$/;"	v	file:
+lxc_macvlan_create	.\network.c	/^int lxc_macvlan_create(const char *master, const char *name, int mode)$/;"	f
+lxc_mainloop	.\mainloop.c	/^int lxc_mainloop(struct lxc_epoll_descr *descr)$/;"	f
+lxc_mainloop_add_handler	.\mainloop.c	/^int lxc_mainloop_add_handler(struct lxc_epoll_descr *descr, int fd,$/;"	f
+lxc_mainloop_callback_t	.\mainloop.h	/^typedef int (*lxc_mainloop_callback_t)(int fd, void *data,$/;"	t
+lxc_mainloop_close	.\mainloop.c	/^int lxc_mainloop_close(struct lxc_epoll_descr *descr)$/;"	f
+lxc_mainloop_del_handler	.\mainloop.c	/^int lxc_mainloop_del_handler(struct lxc_epoll_descr *descr, int fd)$/;"	f
+lxc_mainloop_open	.\mainloop.c	/^int lxc_mainloop_open(struct lxc_epoll_descr *descr)$/;"	f
+lxc_mainloop_timer_t	.\lxcutmp.c	/^typedef void (*lxc_mainloop_timer_t) (void *data);$/;"	t	file:
+lxc_map_ids	.\conf.c	/^int lxc_map_ids(struct lxc_list *idmap, pid_t pid)$/;"	f
+lxc_monitor_close	.\monitor.c	/^int lxc_monitor_close(int fd)$/;"	f
+lxc_monitor_open	.\monitor.c	/^int lxc_monitor_open(const char *lxcpath)$/;"	f
+lxc_monitor_read	.\monitor.c	/^int lxc_monitor_read(int fd, struct lxc_msg *msg)$/;"	f
+lxc_monitor_read_timeout	.\monitor.c	/^int lxc_monitor_read_timeout(int fd, struct lxc_msg *msg, int timeout)$/;"	f
+lxc_monitor_send	.\monitor.c	/^static void lxc_monitor_send(struct lxc_msg *msg, const char *lxcpath)$/;"	f	file:
+lxc_monitor_send_state	.\monitor.c	/^void lxc_monitor_send_state(const char *name, lxc_state_t state, const char *lxcpath)$/;"	f
+lxc_msg	.\monitor.h	/^struct lxc_msg {$/;"	s
+lxc_msg_priority	.\monitor.h	/^	lxc_msg_priority,$/;"	e	enum:__anon3
+lxc_msg_state	.\monitor.h	/^	lxc_msg_state,$/;"	e	enum:__anon3
+lxc_msg_type_t	.\monitor.h	/^} lxc_msg_type_t;$/;"	t	typeref:enum:__anon3
+lxc_namespace_2_cloneflag	.\namespace.c	/^int lxc_namespace_2_cloneflag(char *namespace)$/;"	f
+lxc_neigh_proxy_off	.\network.c	/^int lxc_neigh_proxy_off(const char *name, int family)$/;"	f
+lxc_neigh_proxy_on	.\network.c	/^int lxc_neigh_proxy_on(const char *name, int family)$/;"	f
+lxc_net_type_to_str	.\network.c	/^const char *lxc_net_type_to_str(int type)$/;"	f
+lxc_netdev	.\conf.h	/^struct lxc_netdev {$/;"	s
+lxc_netdev_delete_by_index	.\network.c	/^int lxc_netdev_delete_by_index(int ifindex)$/;"	f
+lxc_netdev_delete_by_name	.\network.c	/^int lxc_netdev_delete_by_name(const char *name)$/;"	f
+lxc_netdev_down	.\network.c	/^int lxc_netdev_down(const char *name)$/;"	f
+lxc_netdev_move_by_index	.\network.c	/^int lxc_netdev_move_by_index(int ifindex, pid_t pid)$/;"	f
+lxc_netdev_rename_by_index	.\network.c	/^int lxc_netdev_rename_by_index(int ifindex, const char *newname)$/;"	f
+lxc_netdev_rename_by_name	.\network.c	/^int lxc_netdev_rename_by_name(const char *oldname, const char *newname)$/;"	f
+lxc_netdev_set_mtu	.\network.c	/^int lxc_netdev_set_mtu(const char *name, int mtu)$/;"	f
+lxc_netdev_up	.\network.c	/^int lxc_netdev_up(const char *name)$/;"	f
+lxc_network_types	.\network.c	/^static char* lxc_network_types[LXC_NET_MAXCONFTYPE + 1] = {$/;"	v	file:
+lxc_new_unnamed_sem	.\lxclock.c	/^static sem_t *lxc_new_unnamed_sem(void)$/;"	f	file:
+lxc_newlock	.\lxclock.c	/^sem_t *lxc_newlock(const char *name)$/;"	f
+lxc_one_cgroup_destroy	.\cgroup.c	/^static int lxc_one_cgroup_destroy(struct mntent *mntent, const char *cgpath)$/;"	f	file:
+lxc_operations	.\start.h	/^struct lxc_operations {$/;"	s
+lxc_pid_callback	.\start.c	/^int lxc_pid_callback(int fd, struct lxc_request *request,$/;"	f
+lxc_poll	.\start.c	/^int lxc_poll(const char *name, struct lxc_handler *handler)$/;"	f
+lxc_priv	.\caps.h	58;"	d
+lxc_proc_context_info	.\attach.h	/^struct lxc_proc_context_info {$/;"	s
+lxc_proc_get_context_info	.\attach.c	/^struct lxc_proc_context_info *lxc_proc_get_context_info(pid_t pid)$/;"	f
+lxc_pty_info	.\conf.h	/^struct lxc_pty_info {$/;"	s
+lxc_read_seccomp_config	.\lxcseccomp.h	/^static inline int lxc_read_seccomp_config(struct lxc_conf *conf) {$/;"	f
+lxc_read_seccomp_config	.\seccomp.c	/^int lxc_read_seccomp_config(struct lxc_conf *conf)$/;"	f
+lxc_remove_nic	.\conf.c	/^static void lxc_remove_nic(struct lxc_list *it)$/;"	f	file:
+lxc_rename_phys_nics_on_shutdown	.\conf.c	/^void lxc_rename_phys_nics_on_shutdown(struct lxc_conf *conf)$/;"	f
+lxc_request	.\commands.h	/^struct lxc_request {$/;"	s
+lxc_restart	.\restart.c	/^int lxc_restart(const char *name, int sfd, struct lxc_conf *conf, int flags,$/;"	f
+lxc_rootfs	.\conf.h	/^struct lxc_rootfs {$/;"	s
+lxc_route	.\conf.h	/^struct lxc_route {$/;"	s
+lxc_route6	.\conf.h	/^struct lxc_route6 {$/;"	s
+lxc_seccomp_free	.\lxcseccomp.h	/^static inline void lxc_seccomp_free(struct lxc_conf *conf) {$/;"	f
+lxc_seccomp_free	.\seccomp.c	/^void lxc_seccomp_free(struct lxc_conf *conf) {$/;"	f
+lxc_seccomp_load	.\lxcseccomp.h	/^static inline int lxc_seccomp_load(struct lxc_conf *conf) {$/;"	f
+lxc_seccomp_load	.\seccomp.c	/^int lxc_seccomp_load(struct lxc_conf *conf)$/;"	f
+lxc_set_state	.\start.c	/^int lxc_set_state(const char *name, struct lxc_handler *handler, lxc_state_t state)$/;"	f
+lxc_setup	.\conf.c	/^int lxc_setup(const char *name, struct lxc_conf *lxc_conf)$/;"	f
+lxc_setup_fs	.\utils.c	/^extern int lxc_setup_fs(void)$/;"	f
+lxc_spawn	.\start.c	/^int lxc_spawn(struct lxc_handler *handler)$/;"	f
+lxc_start	.\start.c	/^int lxc_start(const char *name, char *const argv[], struct lxc_conf *conf,$/;"	f
+lxc_state2str	.\state.c	/^const char *lxc_state2str(lxc_state_t state)$/;"	f
+lxc_state_callback	.\state.c	/^extern int lxc_state_callback(int fd, struct lxc_request *request,$/;"	f
+lxc_state_t	.\state.h	/^} lxc_state_t;$/;"	t	typeref:enum:__anon4
+lxc_stop	.\stop.c	/^int lxc_stop(const char *name, const char *lxcpath)$/;"	f
+lxc_stop_callback	.\stop.c	/^extern int lxc_stop_callback(int fd, struct lxc_request *request,$/;"	f
+lxc_str2state	.\state.c	/^lxc_state_t lxc_str2state(const char *state)$/;"	f
+lxc_sync_barrier_child	.\sync.c	/^int lxc_sync_barrier_child(struct lxc_handler *handler, int sequence)$/;"	f
+lxc_sync_barrier_parent	.\sync.c	/^int lxc_sync_barrier_parent(struct lxc_handler *handler, int sequence)$/;"	f
+lxc_sync_fini	.\sync.c	/^void lxc_sync_fini(struct lxc_handler *handler)$/;"	f
+lxc_sync_fini_child	.\sync.c	/^void lxc_sync_fini_child(struct lxc_handler *handler)$/;"	f
+lxc_sync_fini_parent	.\sync.c	/^void lxc_sync_fini_parent(struct lxc_handler *handler)$/;"	f
+lxc_sync_init	.\sync.c	/^int lxc_sync_init(struct lxc_handler *handler)$/;"	f
+lxc_sync_wait_child	.\sync.c	/^int lxc_sync_wait_child(struct lxc_handler *handler, int sequence)$/;"	f
+lxc_sync_wake_child	.\sync.c	/^int lxc_sync_wake_child(struct lxc_handler *handler, int sequence)$/;"	f
+lxc_sync_wake_parent	.\sync.c	/^int lxc_sync_wake_parent(struct lxc_handler *handler, int sequence)$/;"	f
+lxc_tty_info	.\conf.h	/^struct lxc_tty_info {$/;"	s
+lxc_unfreeze	.\freezer.c	/^int lxc_unfreeze(const char *name, const char *lxcpath)$/;"	f
+lxc_unfreeze_bypath	.\freezer.c	/^int lxc_unfreeze_bypath(const char *cgpath)$/;"	f
+lxc_unpriv	.\caps.h	72;"	d
+lxc_utmp	.\lxcutmp.c	/^struct lxc_utmp {$/;"	s	file:
+lxc_utmp_add_timer	.\lxcutmp.c	/^int lxc_utmp_add_timer(struct lxc_epoll_descr *descr,$/;"	f
+lxc_utmp_del_timer	.\lxcutmp.c	/^int lxc_utmp_del_timer(struct lxc_epoll_descr *descr,$/;"	f
+lxc_utmp_mainloop_add	.\lxcutmp.c	/^int lxc_utmp_mainloop_add(struct lxc_epoll_descr *descr,$/;"	f
+lxc_version	.\version.c	/^const char const* lxc_version(void)$/;"	f
+lxc_veth_create	.\network.c	/^int lxc_veth_create(const char *name1, const char *name2)$/;"	f
+lxc_vlan_create	.\network.c	/^int lxc_vlan_create(const char *master, const char *name, unsigned short vlanid)$/;"	f
+lxc_wait	.\state.c	/^extern int lxc_wait(const char *lxcname, const char *states, int timeout, const char *lxcpath)$/;"	f
+lxcapi_clear_config_item	.\lxccontainer.c	/^static bool lxcapi_clear_config_item(struct lxc_container *c, const char *key)$/;"	f	file:
+lxcapi_config_file_name	.\lxccontainer.c	/^static char *lxcapi_config_file_name(struct lxc_container *c)$/;"	f	file:
+lxcapi_create	.\lxccontainer.c	/^static bool lxcapi_create(struct lxc_container *c, char *t, char *const argv[])$/;"	f	file:
+lxcapi_createl	.\lxccontainer.c	/^static bool lxcapi_createl(struct lxc_container *c, char *t, ...)$/;"	f	file:
+lxcapi_destroy	.\lxccontainer.c	/^static bool lxcapi_destroy(struct lxc_container *c)$/;"	f	file:
+lxcapi_freeze	.\lxccontainer.c	/^static bool lxcapi_freeze(struct lxc_container *c)$/;"	f	file:
+lxcapi_get_cgroup_item	.\lxccontainer.c	/^static int lxcapi_get_cgroup_item(struct lxc_container *c, const char *subsys, char *retv, int inlen)$/;"	f	file:
+lxcapi_get_config_item	.\lxccontainer.c	/^static int lxcapi_get_config_item(struct lxc_container *c, const char *key, char *retv, int inlen)$/;"	f	file:
+lxcapi_get_config_path	.\lxccontainer.c	/^static const char *lxcapi_get_config_path(struct lxc_container *c)$/;"	f	file:
+lxcapi_get_keys	.\lxccontainer.c	/^static int lxcapi_get_keys(struct lxc_container *c, const char *key, char *retv, int inlen)$/;"	f	file:
+lxcapi_init_pid	.\lxccontainer.c	/^static pid_t lxcapi_init_pid(struct lxc_container *c)$/;"	f	file:
+lxcapi_is_defined	.\lxccontainer.c	/^static bool lxcapi_is_defined(struct lxc_container *c)$/;"	f	file:
+lxcapi_is_running	.\lxccontainer.c	/^static bool lxcapi_is_running(struct lxc_container *c)$/;"	f	file:
+lxcapi_load_config	.\lxccontainer.c	/^static bool lxcapi_load_config(struct lxc_container *c, const char *alt_file)$/;"	f	file:
+lxcapi_save_config	.\lxccontainer.c	/^static bool lxcapi_save_config(struct lxc_container *c, const char *alt_file)$/;"	f	file:
+lxcapi_set_cgroup_item	.\lxccontainer.c	/^static bool lxcapi_set_cgroup_item(struct lxc_container *c, const char *subsys, const char *value)$/;"	f	file:
+lxcapi_set_config_item	.\lxccontainer.c	/^static bool lxcapi_set_config_item(struct lxc_container *c, const char *key, const char *v)$/;"	f	file:
+lxcapi_set_config_path	.\lxccontainer.c	/^static bool lxcapi_set_config_path(struct lxc_container *c, const char *path)$/;"	f	file:
+lxcapi_shutdown	.\lxccontainer.c	/^static bool lxcapi_shutdown(struct lxc_container *c, int timeout)$/;"	f	file:
+lxcapi_start	.\lxccontainer.c	/^static bool lxcapi_start(struct lxc_container *c, int useinit, char * const argv[])$/;"	f	file:
+lxcapi_startl	.\lxccontainer.c	/^static bool lxcapi_startl(struct lxc_container *c, int useinit, ...)$/;"	f	file:
+lxcapi_state	.\lxccontainer.c	/^static const char *lxcapi_state(struct lxc_container *c)$/;"	f	file:
+lxcapi_stop	.\lxccontainer.c	/^static bool lxcapi_stop(struct lxc_container *c)$/;"	f	file:
+lxcapi_unfreeze	.\lxccontainer.c	/^static bool lxcapi_unfreeze(struct lxc_container *c)$/;"	f	file:
+lxcapi_wait	.\lxccontainer.c	/^static bool lxcapi_wait(struct lxc_container *c, const char *state, int timeout)$/;"	f	file:
+lxcapi_want_daemonize	.\lxccontainer.c	/^static void lxcapi_want_daemonize(struct lxc_container *c)$/;"	f	file:
+lxcfree_name	.\lxclock.c	/^static void lxcfree_name(char *name)$/;"	f	file:
+lxchook_names	.\conf.c	/^char *lxchook_names[NUM_LXC_HOOKS] = {$/;"	v
+lxchooks	.\conf.h	/^enum lxchooks {$/;"	g
+lxclock	.\lxclock.c	/^int lxclock(sem_t *sem, int timeout)$/;"	f
+lxclock_name	.\lxclock.c	/^static char *lxclock_name(const char *container)$/;"	f	file:
+lxcpath	.\arguments.h	/^	const char *lxcpath;$/;"	m	struct:lxc_arguments
+lxcpath	.\start.h	/^	const char *lxcpath;$/;"	m	struct:lxc_handler
+lxcunlock	.\lxclock.c	/^int lxcunlock(sem_t *sem)$/;"	f
+macvlan_attr	.\conf.h	/^	struct ifla_macvlan macvlan_attr;$/;"	m	union:netdev_p	typeref:struct:netdev_p::ifla_macvlan
+macvlan_mode	.\confile.c	/^static int macvlan_mode(int *valuep, const char *value)$/;"	f	file:
+main	.\lxc_attach.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_cgroup.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_checkpoint.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_console.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_execute.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_freeze.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_info.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_init.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_kill.c	/^int main(int argc, char *argv[], char *envp[])$/;"	f
+main	.\lxc_monitor.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_restart.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_start.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_stop.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_unfreeze.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_unshare.c	/^int main(int argc, char *argv[])$/;"	f
+main	.\lxc_wait.c	/^int main(int argc, char *argv[])$/;"	f
+maincmd_fd	.\conf.h	/^	int maincmd_fd;$/;"	m	struct:lxc_conf
+mainloop_handler	.\mainloop.c	/^struct mainloop_handler {$/;"	s	file:
+maj	.\conf.c	/^	int maj;$/;"	m	struct:lxc_devs	file:
+master	.\conf.h	/^	int master;$/;"	m	struct:lxc_console
+master	.\conf.h	/^	int master;$/;"	m	struct:lxc_pty_info
+master	.\lxc_console.c	/^static int master = -1;$/;"	v	file:
+master_handler	.\lxc_console.c	/^static int master_handler(int fd, void *data, struct lxc_epoll_descr *descr)$/;"	f	file:
+match_fd	.\start.c	/^static int match_fd(int fd)$/;"	f	file:
+mcast	.\conf.h	/^	struct in6_addr mcast;$/;"	m	struct:lxc_inet6dev	typeref:struct:lxc_inet6dev::in6_addr
+min	.\conf.c	/^	int min;$/;"	m	struct:lxc_devs	file:
+mkdir_p	.\utils.c	/^extern int mkdir_p(char *dir, mode_t mode)$/;"	f
+mode	.\conf.c	/^	mode_t mode;$/;"	m	struct:lxc_devs	file:
+mode	.\conf.h	/^	int mode; \/* private, vepa, bridge *\/$/;"	m	struct:ifla_macvlan
+mount	.\conf.h	/^	char *mount;$/;"	m	struct:lxc_rootfs
+mount_autodev	.\conf.c	/^static int mount_autodev(char *root)$/;"	f	file:
+mount_entry	.\conf.c	/^static int mount_entry(const char *fsname, const char *target,$/;"	f	file:
+mount_entry_on_absolute_rootfs	.\conf.c	/^static int mount_entry_on_absolute_rootfs(struct mntent *mntent,$/;"	f	file:
+mount_entry_on_relative_rootfs	.\conf.c	/^static int mount_entry_on_relative_rootfs(struct mntent *mntent,$/;"	f	file:
+mount_entry_on_systemfs	.\conf.c	/^static inline int mount_entry_on_systemfs(struct mntent *mntent)$/;"	f	file:
+mount_file_entries	.\conf.c	/^static int mount_file_entries(const struct lxc_rootfs *rootfs, FILE *file,$/;"	f	file:
+mount_fs	.\utils.c	/^static int mount_fs(const char *source, const char *target, const char *type)$/;"	f	file:
+mount_has_subsystem	.\cgroup.c	/^static char *mount_has_subsystem(const struct mntent *mntent)$/;"	f	file:
+mount_list	.\conf.h	/^	struct lxc_list mount_list;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_list
+mount_opt	.\conf.c	/^static struct mount_opt mount_opt[] = {$/;"	v	typeref:struct:mount_opt	file:
+mount_opt	.\conf.c	/^struct mount_opt {$/;"	s	file:
+mount_rootfs	.\conf.c	/^static int mount_rootfs(const char *rootfs, const char *target)$/;"	f	file:
+mount_rootfs_block	.\conf.c	/^static int mount_rootfs_block(const char *rootfs, const char *target)$/;"	f	file:
+mount_rootfs_dir	.\conf.c	/^static int mount_rootfs_dir(const char *rootfs, const char *target)$/;"	f	file:
+mount_rootfs_file	.\conf.c	/^static int mount_rootfs_file(const char *rootfs, const char *target)$/;"	f	file:
+mount_unknow_fs	.\conf.c	/^static int mount_unknow_fs(const char *rootfs, const char *target, int mntopt)$/;"	f	file:
+mtu	.\conf.h	/^	char *mtu;$/;"	m	struct:lxc_netdev
+must_drop_cap_sys_boot	.\start.c	/^static int must_drop_cap_sys_boot(void)$/;"	f	file:
+my_args	.\lxc_attach.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_cgroup.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_checkpoint.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_console.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_execute.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_freeze.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_info.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_kill.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_monitor.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_restart.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_start.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_stop.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_unfreeze.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_args	.\lxc_wait.c	/^static struct lxc_arguments my_args = {$/;"	v	typeref:struct:lxc_arguments	file:
+my_checker	.\lxc_cgroup.c	/^static int my_checker(const struct lxc_arguments* args)$/;"	f	file:
+my_checker	.\lxc_checkpoint.c	/^static int my_checker(const struct lxc_arguments* args)$/;"	f	file:
+my_checker	.\lxc_execute.c	/^static int my_checker(const struct lxc_arguments* args)$/;"	f	file:
+my_checker	.\lxc_restart.c	/^static int my_checker(const struct lxc_arguments* args)$/;"	f	file:
+my_checker	.\lxc_wait.c	/^static int my_checker(const struct lxc_arguments* args)$/;"	f	file:
+my_longopts	.\lxc_attach.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_cgroup.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_checkpoint.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_console.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_execute.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_freeze.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_info.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_kill.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_monitor.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_restart.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_start.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_stop.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_unfreeze.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_longopts	.\lxc_wait.c	/^static const struct option my_longopts[] = {$/;"	v	typeref:struct:option	file:
+my_parser	.\lxc_attach.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+my_parser	.\lxc_checkpoint.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+my_parser	.\lxc_console.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+my_parser	.\lxc_execute.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+my_parser	.\lxc_info.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+my_parser	.\lxc_restart.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+my_parser	.\lxc_start.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+my_parser	.\lxc_wait.c	/^static int my_parser(struct lxc_arguments* args, int c, char* arg)$/;"	f	file:
+name	.\arguments.h	/^	const char *name;$/;"	m	struct:lxc_arguments
+name	.\conf.c	/^	char *name;$/;"	m	struct:caps_opt	file:
+name	.\conf.c	/^	char *name;$/;"	m	struct:lxc_devs	file:
+name	.\conf.c	/^	char *name;$/;"	m	struct:mount_opt	file:
+name	.\conf.h	/^	char *name;$/;"	m	struct:lxc_netdev
+name	.\conf.h	/^	char name[MAXPATHLEN];$/;"	m	struct:lxc_console
+name	.\conf.h	/^	char name[MAXPATHLEN];$/;"	m	struct:lxc_pty_info
+name	.\confile.c	/^	char *name;$/;"	m	struct:signame	file:
+name	.\confile.h	/^	char *name;$/;"	m	struct:lxc_config_t
+name	.\log.h	/^	const char			*name;$/;"	m	struct:lxc_log_category
+name	.\log.h	/^	const char*	name;$/;"	m	struct:lxc_log_appender
+name	.\lxccontainer.h	/^	char *name;$/;"	m	struct:lxc_container
+name	.\monitor.h	/^	char name[MAXPATHLEN];$/;"	m	struct:lxc_msg
+name	.\start.h	/^	char *name;$/;"	m	struct:lxc_handler
+namespace_flags	.\lxc_attach.c	/^static int namespace_flags = -1;$/;"	v	file:
+namespaces_list	.\namespace.c	/^static char *namespaces_list[] = {$/;"	v	file:
+nbtty	.\conf.h	/^	int nbtty;$/;"	m	struct:lxc_tty_info
+need_utmp_watch	.\conf.h	/^	int need_utmp_watch;$/;"	m	struct:lxc_conf
+neigh_proxy_set	.\network.c	/^static int neigh_proxy_set(const char *ifname, int family, int flag)$/;"	f	file:
+netdev_conf	.\conf.c	/^static  instanciate_cb netdev_conf[LXC_NET_MAXCONFTYPE + 1] = {$/;"	v	file:
+netdev_deconf	.\conf.c	/^static  instanciate_cb netdev_deconf[LXC_NET_MAXCONFTYPE + 1] = {$/;"	v	file:
+netdev_p	.\conf.h	/^union netdev_p {$/;"	u
+netdev_set_flag	.\network.c	/^static int netdev_set_flag(const char *name, int flag)$/;"	f	file:
+netlink_close	.\nl.c	/^extern int netlink_close(struct nl_handler *handler)$/;"	f
+netlink_open	.\nl.c	/^extern int netlink_open(struct nl_handler *handler, int protocol)$/;"	f
+netlink_rcv	.\nl.c	/^extern int netlink_rcv(struct nl_handler *handler, struct nlmsg *answer)$/;"	f
+netlink_send	.\nl.c	/^extern int netlink_send(struct nl_handler *handler, struct nlmsg *nlmsg)$/;"	f
+netlink_transaction	.\nl.c	/^extern int netlink_transaction(struct nl_handler *handler,$/;"	f
+network	.\conf.h	/^	struct lxc_list network;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_list
+network_ifname	.\confile.c	/^static int network_ifname(char **valuep, const char *value)$/;"	f	file:
+network_netdev	.\confile.c	/^static struct lxc_netdev *network_netdev(const char *key, const char *value,$/;"	f	file:
+new_personality	.\lxc_attach.c	/^static signed long new_personality = -1;$/;"	v	file:
+next	.\list.h	/^	struct lxc_list *next;$/;"	m	struct:lxc_list	typeref:struct:lxc_list::lxc_list
+next	.\log.h	/^	struct lxc_log_appender	*next;$/;"	m	struct:lxc_log_appender	typeref:struct:lxc_log_appender::lxc_log_appender
+nl_handler	.\nl.h	/^struct nl_handler {$/;"	s
+nla_begin_nested	.\nl.c	/^struct rtattr *nla_begin_nested(struct nlmsg *nlmsg, int attr)$/;"	f
+nla_end_nested	.\nl.c	/^void nla_end_nested(struct nlmsg *nlmsg, struct rtattr *attr)$/;"	f
+nla_put	.\nl.c	/^static int nla_put(struct nlmsg *nlmsg, int attr,$/;"	f	file:
+nla_put_attr	.\nl.c	/^extern int nla_put_attr(struct nlmsg *nlmsg, int attr)$/;"	f
+nla_put_buffer	.\nl.c	/^extern int nla_put_buffer(struct nlmsg *nlmsg, int attr,$/;"	f
+nla_put_string	.\nl.c	/^extern int nla_put_string(struct nlmsg *nlmsg, int attr, const char *string)$/;"	f
+nla_put_u16	.\nl.c	/^extern int nla_put_u16(struct nlmsg *nlmsg, int attr, unsigned short value)$/;"	f
+nla_put_u32	.\nl.c	/^extern int nla_put_u32(struct nlmsg *nlmsg, int attr, int value)$/;"	f
+nlh	.\genl.h	/^	struct nl_handler nlh;$/;"	m	struct:genl_handler	typeref:struct:genl_handler::nl_handler
+nlh	.\rtnl.h	/^	struct nl_handler nlh;$/;"	m	struct:rtnl_handler	typeref:struct:rtnl_handler::nl_handler
+nlmsg	.\network.c	/^	struct nlmsg nlmsg;$/;"	m	struct:ip_req	typeref:struct:ip_req::nlmsg	file:
+nlmsg	.\network.c	/^	struct nlmsg nlmsg;$/;"	m	struct:link_req	typeref:struct:link_req::nlmsg	file:
+nlmsg	.\network.c	/^	struct nlmsg nlmsg;$/;"	m	struct:rt_req	typeref:struct:rt_req::nlmsg	file:
+nlmsg	.\nl.h	/^struct nlmsg {$/;"	s
+nlmsg_alloc	.\nl.c	/^extern struct nlmsg *nlmsg_alloc(size_t size)$/;"	f
+nlmsg_data	.\nl.c	/^extern void *nlmsg_data(struct nlmsg *nlmsg)$/;"	f
+nlmsg_free	.\nl.c	/^extern void nlmsg_free(struct nlmsg *nlmsg)$/;"	f
+nlmsg_len	.\nl.c	/^extern size_t nlmsg_len(const struct nlmsg *nlmsg)$/;"	f
+nlmsghdr	.\genl.h	/^	struct nlmsghdr nlmsghdr;$/;"	m	struct:genlmsg	typeref:struct:genlmsg::nlmsghdr
+nlmsghdr	.\nl.h	/^	struct nlmsghdr nlmsghdr;$/;"	m	struct:nlmsg	typeref:struct:nlmsg::nlmsghdr
+nlmsghdr	.\rtnl.h	/^	struct nlmsghdr nlmsghdr;$/;"	m	struct:rtnlmsg	typeref:struct:rtnlmsg::nlmsghdr
+nsid	.\conf.h	/^	unsigned long hostid, nsid, range;$/;"	m	struct:id_map
+num	.\confile.c	/^	int num;$/;"	m	struct:signame	file:
+num_savednics	.\conf.h	/^	int num_savednics;$/;"	m	struct:lxc_conf
+numthreads	.\lxccontainer.h	/^	int numthreads; \/* protected by privlock. *\/$/;"	m	struct:lxc_container
+oldmask	.\start.h	/^	sigset_t oldmask;$/;"	m	struct:lxc_handler
+ops	.\start.h	/^	struct lxc_operations *ops;$/;"	m	struct:lxc_handler	typeref:struct:lxc_handler::lxc_operations
+options	.\arguments.h	/^	const struct option* options;$/;"	m	struct:lxc_arguments	typeref:struct:lxc_arguments::option
+options	.\lxc_init.c	/^static struct option options[] = {$/;"	v	typeref:struct:option	file:
+orig_name	.\conf.h	/^	char *orig_name;$/;"	m	struct:saved_nic
+pad	.\conf.h	/^	unsigned short   pad;$/;"	m	struct:ifla_vlan
+pair	.\conf.h	/^	char *pair; \/* pair name *\/$/;"	m	struct:ifla_veth
+parent	.\log.h	/^	const struct lxc_log_category	*parent;$/;"	m	struct:lxc_log_category	typeref:struct:lxc_log_category::lxc_log_category
+parse_config	.\seccomp.c	/^static int parse_config(FILE *f, struct lxc_conf *conf)$/;"	f	file:
+parse_line	.\confile.c	/^static int parse_line(char *buffer, void *data)$/;"	f	file:
+parse_mntopt	.\conf.c	/^static void parse_mntopt(char *opt, unsigned long *flags, char **data)$/;"	f	file:
+parse_mntopts	.\conf.c	/^static int parse_mntopts(const char *mntopts, unsigned long *mntflags,$/;"	f	file:
+parser	.\arguments.h	/^	lxc_arguments_parser_t parser;$/;"	m	struct:lxc_arguments
+path	.\commands.h	/^	const char *path;$/;"	m	struct:lxc_answer
+path	.\conf.h	/^	char *path;$/;"	m	struct:lxc_console
+path	.\conf.h	/^	char *path;$/;"	m	struct:lxc_rootfs
+pathlen	.\commands.h	/^	int pathlen;$/;"	m	struct:lxc_answer
+peer	.\conf.h	/^	int peer;$/;"	m	struct:lxc_console
+peer	.\nl.h	/^        struct sockaddr_nl peer;$/;"	m	struct:nl_handler	typeref:struct:nl_handler::sockaddr_nl
+personality	.\attach.h	/^	unsigned long personality;$/;"	m	struct:lxc_proc_context_info
+personality	.\conf.h	/^	int personality;$/;"	m	struct:lxc_conf
+pid	.\commands.h	/^	pid_t pid;$/;"	m	struct:lxc_answer
+pid	.\lxc_info.c	/^static bool pid;$/;"	v	file:
+pid	.\start.h	/^	pid_t pid;$/;"	m	struct:lxc_handler
+pidfile	.\arguments.h	/^	const char *pidfile;$/;"	m	struct:lxc_arguments
+pin_rootfs	.\conf.c	/^int pin_rootfs(const char *rootfs)$/;"	f
+pinfd	.\start.h	/^	int pinfd;$/;"	m	struct:lxc_handler
+pivot	.\conf.h	/^	char *pivot;$/;"	m	struct:lxc_rootfs
+pivot_root	.\conf.c	/^static int pivot_root(const char * new_root, const char * put_old)$/;"	f	file:
+post_restart	.\restart.c	/^static int post_restart(struct lxc_handler *handler, void* data)$/;"	f	file:
+post_start	.\start.c	/^static int post_start(struct lxc_handler *handler, void* data)$/;"	f	file:
+post_start	.\start.h	/^	int (*post_start)(struct lxc_handler *, void *);$/;"	m	struct:lxc_operations
+prefix	.\conf.h	/^	int prefix;$/;"	m	struct:lxc_inet6dev
+prefix	.\conf.h	/^	int prefix;$/;"	m	struct:lxc_inetdev
+prev	.\list.h	/^	struct lxc_list *prev;$/;"	m	struct:lxc_list	typeref:struct:lxc_list::lxc_list
+prev_runlevel	.\lxcutmp.c	/^	int prev_runlevel, curr_runlevel;$/;"	m	struct:lxc_utmp	file:
+print_help	.\arguments.c	/^static void print_help(const struct lxc_arguments *args, int code)$/;"	f	file:
+print_usage	.\arguments.c	/^static void print_usage(const struct option longopts[],$/;"	f	file:
+priority	.\log.h	/^	int				priority;$/;"	m	struct:lxc_log_category
+priority	.\log.h	/^	int			priority;$/;"	m	struct:lxc_log_event
+priv	.\conf.h	/^	union netdev_p priv;$/;"	m	struct:lxc_netdev	typeref:union:lxc_netdev::netdev_p
+privlock	.\lxccontainer.h	/^	sem_t *privlock;$/;"	m	struct:lxc_container
+proc_sys_net_write	.\network.c	/^static int proc_sys_net_write(const char *path, const char *value)$/;"	f	file:
+progname	.\arguments.h	/^	const char *progname;$/;"	m	struct:lxc_arguments
+pts	.\conf.h	/^	int pts;$/;"	m	struct:lxc_conf
+pty_info	.\conf.h	/^	struct lxc_pty_info *pty_info;$/;"	m	struct:lxc_tty_info	typeref:struct:lxc_tty_info::lxc_pty_info
+quiet	.\arguments.h	/^	int quiet;$/;"	m	struct:lxc_arguments
+quiet	.\execute.c	/^	int quiet;$/;"	m	struct:execute_args	file:
+quiet	.\lxc_init.c	/^static int quiet;$/;"	v	file:
+range	.\conf.h	/^	unsigned long hostid, nsid, range;$/;"	m	struct:id_map
+rcfile	.\arguments.h	/^	const char *rcfile;$/;"	m	struct:lxc_arguments
+rcfile	.\conf.h	/^	char *rcfile;	\/\/ Copy of the top level rcfile we read$/;"	m	struct:lxc_conf
+reboot	.\conf.h	/^	int reboot;$/;"	m	struct:lxc_conf
+receive_answer	.\commands.c	/^static int receive_answer(int sock, struct lxc_answer *answer)$/;"	f	file:
+recursive_rmdir	.\cgroup.c	/^int recursive_rmdir(char *dirname)$/;"	f
+remount_sys_proc	.\lxc_attach.c	/^static int remount_sys_proc = 0;$/;"	v	file:
+request	.\commands.h	/^	struct lxc_request request;$/;"	m	struct:lxc_command	typeref:struct:lxc_command::lxc_request
+restart	.\restart.c	/^static int restart(struct lxc_handler *handler, void* data)$/;"	f	file:
+restart_args	.\restart.c	/^struct restart_args {$/;"	s	file:
+restart_ops	.\restart.c	/^static struct lxc_operations restart_ops = {$/;"	v	typeref:struct:lxc_operations	file:
+ret	.\commands.h	/^	int ret; \/* 0 on success, -errno on failure *\/$/;"	m	struct:lxc_answer
+rootfs	.\conf.h	/^	struct lxc_rootfs rootfs;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_rootfs
+rt	.\network.c	/^	struct rtmsg rt;$/;"	m	struct:rt_req	typeref:struct:rt_req::rtmsg	file:
+rt_req	.\network.c	/^struct rt_req {$/;"	s	file:
+rt_sig_num	.\confile.c	/^static int rt_sig_num(const char *signame)$/;"	f	file:
+rtnetlink_close	.\rtnl.c	/^extern int rtnetlink_close(struct rtnl_handler *handler)$/;"	f
+rtnetlink_open	.\rtnl.c	/^extern int rtnetlink_open(struct rtnl_handler *handler)$/;"	f
+rtnetlink_rcv	.\rtnl.c	/^extern int rtnetlink_rcv(struct rtnl_handler *handler, struct rtnlmsg *rtnlmsg)$/;"	f
+rtnetlink_send	.\rtnl.c	/^extern int rtnetlink_send(struct rtnl_handler *handler, struct rtnlmsg *rtnlmsg)$/;"	f
+rtnetlink_transaction	.\rtnl.c	/^extern int rtnetlink_transaction(struct rtnl_handler *handler,$/;"	f
+rtnl_handler	.\rtnl.h	/^struct rtnl_handler$/;"	s
+rtnlmsg	.\rtnl.h	/^struct rtnlmsg {$/;"	s
+rtnlmsg_alloc	.\rtnl.c	/^extern struct rtnlmsg *rtnlmsg_alloc(size_t size)$/;"	f
+rtnlmsg_free	.\rtnl.c	/^extern void rtnlmsg_free(struct rtnlmsg *rtnlmsg)$/;"	f
+run_buffer	.\conf.c	/^static int run_buffer(char *buffer)$/;"	f	file:
+run_lxc_hooks	.\conf.c	/^int run_lxc_hooks(const char *name, char *hook, struct lxc_conf *conf)$/;"	f
+run_script	.\conf.c	/^static int run_script(const char *name, const char *section,$/;"	f	file:
+save_config	.\lxccontainer.h	/^	bool (*save_config)(struct lxc_container *c, const char *alt_file);$/;"	m	struct:lxc_container
+save_phys_nics	.\start.c	/^int save_phys_nics(struct lxc_conf *conf)$/;"	f
+saved_nic	.\conf.h	/^struct saved_nic {$/;"	s
+saved_nics	.\conf.h	/^	struct saved_nic *saved_nics;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::saved_nic
+scmp_filter_ctx	.\conf.h	/^typedef void * scmp_filter_ctx;$/;"	t
+seccomp	.\conf.h	/^	char *seccomp;  \/\/ filename with the seccomp rules$/;"	m	struct:lxc_conf
+seccomp_ctx	.\conf.h	/^	scmp_filter_ctx *seccomp_ctx;$/;"	m	struct:lxc_conf
+seq	.\nl.h	/^	int seq;$/;"	m	struct:nl_handler
+set_cgroup_item	.\lxccontainer.h	/^	bool (*set_cgroup_item)(struct lxc_container *c, const char *subsys, const char *value);$/;"	m	struct:lxc_container
+set_clone_children	.\cgroup.c	/^static void set_clone_children(const char *mntdir)$/;"	f	file:
+set_config_filename	.\lxccontainer.c	/^static bool set_config_filename(struct lxc_container *c)$/;"	f	file:
+set_config_item	.\lxccontainer.h	/^	bool (*set_config_item)(struct lxc_container *c, const char *key, const char *value);$/;"	m	struct:lxc_container
+set_config_path	.\lxccontainer.h	/^	bool (*set_config_path)(struct lxc_container *c, const char *path);$/;"	m	struct:lxc_container
+sethostname	.\conf.c	/^static int sethostname(const char * name, size_t len)$/;"	f	file:
+setns	.\attach.c	/^static int setns(int fd, int nstype)$/;"	f	file:
+setup_autodev	.\conf.c	/^static int setup_autodev(char *root)$/;"	f	file:
+setup_caps	.\conf.c	/^static int setup_caps(struct lxc_list *caps)$/;"	f	file:
+setup_cgroup	.\conf.c	/^int setup_cgroup(const char *cgpath, struct lxc_list *cgroups)$/;"	f
+setup_console	.\conf.c	/^static int setup_console(const struct lxc_rootfs *rootfs,$/;"	f	file:
+setup_dev_console	.\conf.c	/^static int setup_dev_console(const struct lxc_rootfs *rootfs,$/;"	f	file:
+setup_hw_addr	.\conf.c	/^static int setup_hw_addr(char *hwaddr, const char *ifname)$/;"	f	file:
+setup_ipv4_addr	.\conf.c	/^static int setup_ipv4_addr(struct lxc_list *ip, int ifindex)$/;"	f	file:
+setup_ipv6_addr	.\conf.c	/^static int setup_ipv6_addr(struct lxc_list *ip, int ifindex)$/;"	f	file:
+setup_kmsg	.\conf.c	/^static int setup_kmsg(const struct lxc_rootfs *rootfs,$/;"	f	file:
+setup_lodev	.\conf.c	/^static int setup_lodev(const char *rootfs, int fd, struct loop_info64 *loinfo)$/;"	f	file:
+setup_mount	.\conf.c	/^static int setup_mount(const struct lxc_rootfs *rootfs, const char *fstab,$/;"	f	file:
+setup_mount_entries	.\conf.c	/^static int setup_mount_entries(const struct lxc_rootfs *rootfs, struct lxc_list *mount,$/;"	f	file:
+setup_netdev	.\conf.c	/^static int setup_netdev(struct lxc_netdev *netdev)$/;"	f	file:
+setup_network	.\conf.c	/^static int setup_network(struct lxc_list *network)$/;"	f	file:
+setup_personality	.\conf.c	/^static int setup_personality(int persona)$/;"	f	file:
+setup_pivot_root	.\conf.c	/^int setup_pivot_root(const struct lxc_rootfs *rootfs)$/;"	f
+setup_private_host_hw_addr	.\conf.c	/^static int setup_private_host_hw_addr(char *veth1)$/;"	f	file:
+setup_pts	.\conf.c	/^static int setup_pts(int pts)$/;"	f	file:
+setup_rootfs	.\conf.c	/^static int setup_rootfs(struct lxc_conf *conf)$/;"	f	file:
+setup_rootfs_pivot_root	.\conf.c	/^static int setup_rootfs_pivot_root(const char *rootfs, const char *pivotdir)$/;"	f	file:
+setup_rootfs_pivot_root_cb	.\conf.c	/^static int setup_rootfs_pivot_root_cb(char *buffer, void *data)$/;"	f	file:
+setup_signal_fd	.\start.c	/^static int setup_signal_fd(sigset_t *oldmask)$/;"	f	file:
+setup_tios	.\lxc_console.c	/^static int setup_tios(int fd, struct termios *newtios, struct termios *oldtios)$/;"	f	file:
+setup_tty	.\conf.c	/^static int setup_tty(const struct lxc_rootfs *rootfs,$/;"	f	file:
+setup_ttydir_console	.\conf.c	/^static int setup_ttydir_console(const struct lxc_rootfs *rootfs,$/;"	f	file:
+setup_utsname	.\conf.c	/^static int setup_utsname(struct utsname *utsname)$/;"	f	file:
+setutxent	.\lxcutmp.c	/^static void setutxent(void) {$/;"	f	file:
+sfd	.\restart.c	/^	int sfd;$/;"	m	struct:restart_args	file:
+shiftid	.\conf.c	/^static int shiftid(struct lxc_conf *c, int uid, enum idtype w)$/;"	f	file:
+shutdown	.\lxccontainer.h	/^	bool (*shutdown)(struct lxc_container *c, int timeout);$/;"	m	struct:lxc_container
+shutdown_empty	.\conf.c	/^static int shutdown_empty(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+shutdown_macvlan	.\conf.c	/^static int shutdown_macvlan(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+shutdown_phys	.\conf.c	/^static int shutdown_phys(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+shutdown_veth	.\conf.c	/^static int shutdown_veth(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+shutdown_vlan	.\conf.c	/^static int shutdown_vlan(struct lxc_handler *handler, struct lxc_netdev *netdev)$/;"	f	file:
+sig_num	.\confile.c	/^static int sig_num(const char *sig)$/;"	f	file:
+sig_parse	.\confile.c	/^static int sig_parse(const char *signame) {$/;"	f	file:
+sigfd	.\start.h	/^	int sigfd;$/;"	m	struct:lxc_handler
+signal_handler	.\start.c	/^static int signal_handler(int fd, void *data,$/;"	f	file:
+signalfd	.\start.c	/^int signalfd(int fd, const sigset_t *mask, int flags)$/;"	f
+signalfd_siginfo	.\start.c	/^struct signalfd_siginfo$/;"	s	file:
+signame	.\confile.c	/^struct signame {$/;"	s	file:
+signames	.\confile.c	/^struct signame signames[] = {$/;"	v	typeref:struct:signame
+sigwinch	.\lxc_console.c	/^static void sigwinch(int sig)$/;"	f	file:
+slave	.\conf.h	/^	int slave;$/;"	m	struct:lxc_console
+slave	.\conf.h	/^	int slave;$/;"	m	struct:lxc_pty_info
+slock	.\lxccontainer.h	/^	sem_t *slock;$/;"	m	struct:lxc_container
+ssi_addr	.\start.c	/^	uint64_t ssi_addr;$/;"	m	struct:signalfd_siginfo	file:
+ssi_band	.\start.c	/^	uint32_t ssi_band;$/;"	m	struct:signalfd_siginfo	file:
+ssi_code	.\start.c	/^	int32_t ssi_code;$/;"	m	struct:signalfd_siginfo	file:
+ssi_errno	.\start.c	/^	int32_t ssi_errno;$/;"	m	struct:signalfd_siginfo	file:
+ssi_fd	.\start.c	/^	int32_t ssi_fd;$/;"	m	struct:signalfd_siginfo	file:
+ssi_int	.\start.c	/^	int32_t ssi_int;$/;"	m	struct:signalfd_siginfo	file:
+ssi_overrun	.\start.c	/^	uint32_t ssi_overrun;$/;"	m	struct:signalfd_siginfo	file:
+ssi_pid	.\start.c	/^	uint32_t ssi_pid;$/;"	m	struct:signalfd_siginfo	file:
+ssi_ptr	.\start.c	/^	uint64_t ssi_ptr;$/;"	m	struct:signalfd_siginfo	file:
+ssi_signo	.\start.c	/^	uint32_t ssi_signo;$/;"	m	struct:signalfd_siginfo	file:
+ssi_status	.\start.c	/^	int32_t ssi_status;$/;"	m	struct:signalfd_siginfo	file:
+ssi_stime	.\start.c	/^	uint64_t ssi_stime;$/;"	m	struct:signalfd_siginfo	file:
+ssi_tid	.\start.c	/^	uint32_t ssi_tid;$/;"	m	struct:signalfd_siginfo	file:
+ssi_trapno	.\start.c	/^	uint32_t ssi_trapno;$/;"	m	struct:signalfd_siginfo	file:
+ssi_uid	.\start.c	/^	uint32_t ssi_uid;$/;"	m	struct:signalfd_siginfo	file:
+ssi_utime	.\start.c	/^	uint64_t ssi_utime;$/;"	m	struct:signalfd_siginfo	file:
+start	.\lxccontainer.h	/^	bool (*start)(struct lxc_container *c, int useinit, char * const argv[]);$/;"	m	struct:lxc_container
+start	.\start.c	/^static int start(struct lxc_handler *handler, void* data)$/;"	f	file:
+start	.\start.h	/^	int (*start)(struct lxc_handler *, void *);$/;"	m	struct:lxc_operations
+start_arg	.\lxc_unshare.c	/^struct start_arg {$/;"	s	file:
+start_args	.\start.c	/^struct start_args {$/;"	s	file:
+start_ops	.\start.c	/^static struct lxc_operations start_ops = {$/;"	v	typeref:struct:lxc_operations	file:
+startl	.\lxccontainer.h	/^	bool (*startl)(struct lxc_container *c, int useinit, ...);$/;"	m	struct:lxc_container
+state	.\lxc_info.c	/^static bool state;$/;"	v	file:
+state	.\lxccontainer.h	/^	const char *(*state)(struct lxc_container *c);$/;"	m	struct:lxc_container
+state	.\start.h	/^	lxc_state_t state;$/;"	m	struct:lxc_handler
+statefd	.\arguments.h	/^	int statefd;$/;"	m	struct:lxc_arguments
+statefile	.\arguments.h	/^	const char *statefile;$/;"	m	struct:lxc_arguments
+states	.\arguments.h	/^	char *states;$/;"	m	struct:lxc_arguments
+stdin_handler	.\lxc_console.c	/^static int stdin_handler(int fd, void *data, struct lxc_epoll_descr *descr)$/;"	f	file:
+stop	.\lxccontainer.h	/^	bool (*stop)(struct lxc_container *c);$/;"	m	struct:lxc_container
+stopsignal	.\conf.h	/^	int stopsignal; \/\/ signal used to stop container$/;"	m	struct:lxc_conf
+strprint	.\confile.c	185;"	d	file:
+strstate	.\state.c	/^static char *strstate[] = {$/;"	v	file:
+subsystem	.\conf.h	/^	char *subsystem;$/;"	m	struct:lxc_cgroup
+sv	.\start.h	/^	int sv[2];$/;"	m	struct:lxc_handler
+test_state	.\lxc_info.c	/^static char *test_state = NULL;$/;"	v	file:
+timeout	.\arguments.h	/^	long timeout;$/;"	m	struct:lxc_arguments
+timer_fd	.\lxcutmp.c	/^	int timer_fd;$/;"	m	struct:lxc_utmp	file:
+timerfd_create	.\lxcutmp.c	/^static int timerfd_create (clockid_t __clock_id, int __flags) {$/;"	f	file:
+timerfd_settime	.\lxcutmp.c	/^static int timerfd_settime (int __ufd, int __flags,$/;"	f	file:
+timestamp	.\log.h	/^	struct timeval		timestamp;$/;"	m	struct:lxc_log_event	typeref:struct:lxc_log_event::timeval
+tios	.\conf.h	/^	struct termios *tios;$/;"	m	struct:lxc_console	typeref:struct:lxc_console::termios
+trigger_command	.\commands.c	/^static int trigger_command(int fd, struct lxc_request *request,$/;"	f	file:
+tty	.\conf.h	/^	int tty;$/;"	m	struct:lxc_conf
+tty_info	.\conf.h	/^	struct lxc_tty_info tty_info;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::lxc_tty_info
+ttydir	.\conf.h	/^	char *ttydir;$/;"	m	struct:lxc_conf
+ttynum	.\arguments.h	/^	int ttynum;$/;"	m	struct:lxc_arguments
+type	.\commands.h	/^	int type;$/;"	m	struct:lxc_request
+type	.\conf.h	/^	int type;$/;"	m	struct:lxc_netdev
+type	.\monitor.h	/^	lxc_msg_type_t type;$/;"	m	struct:lxc_msg
+uid	.\lxc_unshare.c	/^	uid_t *uid;$/;"	m	struct:start_arg	file:
+uid_shift_file	.\conf.c	/^static int uid_shift_file(char *path, struct lxc_conf *c)$/;"	f	file:
+uid_shift_ttys	.\conf.c	/^int uid_shift_ttys(int pid, struct lxc_conf *conf)$/;"	f
+umount_oldrootfs	.\conf.c	/^static int umount_oldrootfs(const char *oldrootfs)$/;"	f	file:
+unfreeze	.\lxccontainer.h	/^	bool (*unfreeze)(struct lxc_container *c);$/;"	m	struct:lxc_container
+unshare	.\attach.c	/^static int unshare(int flags)$/;"	f	file:
+upscript	.\conf.h	/^	char *upscript;$/;"	m	struct:lxc_netdev
+usage	.\lxc_unshare.c	/^void usage(char *cmd)$/;"	f
+utmp_get_ntasks	.\lxcutmp.c	/^static int utmp_get_ntasks(struct lxc_handler *handler)$/;"	f	file:
+utmp_get_runlevel	.\lxcutmp.c	/^static int utmp_get_runlevel(struct lxc_utmp *utmp_data)$/;"	f	file:
+utmp_handler	.\lxcutmp.c	/^static int utmp_handler(int fd, void *data, struct lxc_epoll_descr *descr)$/;"	f	file:
+utmp_shutdown_handler	.\lxcutmp.c	/^static int utmp_shutdown_handler(int fd, void *data,$/;"	f	file:
+utmpxname	.\lxcutmp.c	/^static int utmpxname(const char *file) {$/;"	f	file:
+utsname	.\conf.h	/^	struct utsname *utsname;$/;"	m	struct:lxc_conf	typeref:struct:lxc_conf::utsname
+valid_template	.\lxccontainer.c	/^static bool valid_template(char *t)$/;"	f	file:
+value	.\conf.c	/^	int value;$/;"	m	struct:caps_opt	file:
+value	.\conf.h	/^	char *value;$/;"	m	struct:lxc_cgroup
+value	.\monitor.h	/^	int value;$/;"	m	struct:lxc_msg
+vap	.\log.h	/^	va_list			*vap;$/;"	m	struct:lxc_log_event
+veth1	.\conf.h	/^	char veth1[IFNAMSIZ]; \/* needed for deconf *\/$/;"	m	struct:ifla_veth
+veth_attr	.\conf.h	/^	struct ifla_veth veth_attr;$/;"	m	union:netdev_p	typeref:struct:netdev_p::ifla_veth
+vid	.\conf.h	/^	unsigned short   vid;$/;"	m	struct:ifla_vlan
+vlan_attr	.\conf.h	/^	struct ifla_vlan vlan_attr;$/;"	m	union:netdev_p	typeref:struct:netdev_p::ifla_vlan
+wait	.\lxccontainer.h	/^	bool (*wait)(struct lxc_container *c, const char *state, int timeout);$/;"	m	struct:lxc_container
+wait_on_daemonized_start	.\lxccontainer.c	/^static bool wait_on_daemonized_start(struct lxc_container *c)$/;"	f	file:
+want_daemonize	.\lxccontainer.h	/^	void (*want_daemonize)(struct lxc_container *c);$/;"	m	struct:lxc_container
+was_interrupted	.\lxc_init.c	/^static	int was_interrupted = 0;$/;"	v	file:
+winsz	.\lxc_console.c	/^static void winsz(void)$/;"	f	file:
+write_config	.\confile.c	/^void write_config(FILE *fout, struct lxc_conf *c)$/;"	f
+write_id_mapping	.\conf.c	/^static int write_id_mapping(enum idtype idtype, pid_t pid, const char *buf,$/;"	f	file:
