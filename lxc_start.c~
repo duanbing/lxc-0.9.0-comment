@@ -54,6 +54,9 @@ lxc_log_define(lxc_start_ui, lxc_start);
 
 static struct lxc_list defines;
 
+/*
+ *  获得path所在的绝对路径 
+ */
 static int ensure_path(char **confpath, const char *path)
 {
 	int err = -1, fd;
@@ -61,7 +64,7 @@ static int ensure_path(char **confpath, const char *path)
 
 	if (path) {
 		if (access(path, W_OK)) {
-			fd = creat(path, 0600);
+			fd = creat(path, 0600);  // == open
 			if (fd < 0) {
 				SYSERROR("failed to create '%s'", path);
 				goto err;

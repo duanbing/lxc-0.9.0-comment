@@ -43,6 +43,7 @@
 
 lxc_log_define(lxc_execute_ui, lxc_execute);
 
+//存储用户自定义的key=>value , e.g : lxc.cgroup.cpu.shares=1024
 static struct lxc_list defines;
 
 static int my_checker(const struct lxc_arguments* args)
@@ -123,6 +124,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
+    //初始化lxc_conf
 	conf = lxc_conf_init();
 	if (!conf) {
 		ERROR("failed to initialize configuration");

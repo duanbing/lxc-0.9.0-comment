@@ -114,6 +114,9 @@ int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)
 	return err;
 }
 
+/**
+ * ³ýÈ¥×ó±ß¿Õ°××Ö·û
+ */
 int lxc_char_left_gc(char *buffer, size_t len)
 {
 	int i;

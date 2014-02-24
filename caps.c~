@@ -240,6 +240,14 @@ int lxc_caps_check(void)
 	cap_flag_value_t value;
 	int i, ret;
 
+//CAP_DAC_OVERRIDE /*越过在文件和目录上的访问限制(数据访问控制或 DAC)的能力。*/
+//CAP_NET_ADMIN /*进行网络管理任务的能力, 包括那些能够影响网络接口的任务*/
+//CAP_SYS_MODULE /*加载或去除内核模块的能力*/
+//CAP_SYS_RAWIO /*进行 "raw"（裸）I/O 操作的能力. 例子包括存取设备端口或者直接和 USB 设备通讯*/
+//CAP_SYS_ADMIN /*截获的能力, 提供对许多系统管理操作的途径*/
+//CAP_SYS_TTY_CONFIG /*执行 tty 配置任务的能力*/
+//CAP_SETUID 设定程序允许普通用户使用setuid函数,这与文件的setuid权限位无关
+    
 	cap_value_t needed_caps[] = { CAP_SYS_ADMIN, CAP_NET_ADMIN, CAP_SETUID, CAP_SETGID };
 
 #define NUMCAPS ((int) (sizeof(needed_caps) / sizeof(cap_t)))

@@ -1402,6 +1402,7 @@ static int parse_line(char *buffer, void *data)
 	value += lxc_char_left_gc(value, strlen(value));
 	value[lxc_char_right_gc(value, strlen(value))] = '\0';
 
+    //生成配置，并且调用对应的配置解析函数，跟nginx解析配置很相似哦
 	config = lxc_getconfig(key);
 	if (!config) {
 		ERROR("unknown key %s", key);
