@@ -149,7 +149,7 @@ int lxc_af_unix_recv_fd(int fd, int *recvfd, void *data, size_t size)
 {
         struct msghdr msg = { 0 };
         struct iovec iov;
-        struct cmsghdr *cmsg;
+        struct cmsghdr *cmsg;  // 控制信息头部
         char cmsgbuf[CMSG_SPACE(sizeof(int))];
         char buf[1];
 	int ret, *val;
@@ -168,7 +168,7 @@ int lxc_af_unix_recv_fd(int fd, int *recvfd, void *data, size_t size)
 	if (ret <= 0)
 		goto out;
 
-        cmsg = CMSG_FIRSTHDR(&msg);
+        cmsg = CMSG_FIRSTHDR(&msg);  //这个宏用于返回一个指向附属数据缓冲区内的第一个附属对象的struct cmsghdr指针。输入值为是指向struct msghdr结构的指针(不要与struct cmsghdr相混淆)。这个宏会估计msghdr的成员msg_control与msg_controllen来确定在缓冲区中是否存在附属对象。然后，他会计算返回的指针。如果不存在附属数据对象则返回的指针值为NULL。否则，这个指针会指向存在的第一个struct cmsghdr。这个宏用在一个for循环的开始处，来开始在附属数据对象中遍历。
 
 	/* if the message is wrong the variable will not be
 	 * filled and the peer will notified about a problem */

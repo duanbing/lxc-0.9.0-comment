@@ -52,6 +52,8 @@
 
 lxc_log_define(lxc_cgroup, lxc);
 
+//* /proc/mounts文件是以/etc/mtab文件的格式给出当前系统所挂载的文件系统信息，这个文件也能反映出任何手工安装从而在/etc/mtab文件中没有包含的文件系统。当挂载cgroups后，cgroups的挂载点的信息也出现在/proc/mounts
+
 #define MTAB "/proc/mounts"
 
 /* Check if a mount is a cgroup hierarchy for any subsystem.
@@ -96,6 +98,17 @@ static char *mount_has_subsystem(const struct mntent *mntent)
  *
  * Returns 0 on success, -1 on error.
  */
+
+//struct mntent {
+//    char    *mnt_fsname;    /* name of mounted file system */
+//    char    *mnt_dir;       /* file system path prefix */
+//    char    *mnt_type;      /* mount type (see mntent.h) */
+//    char    *mnt_opts;      /* mount options (see mntent.h) */
+//    int     mnt_freq;       /* dump frequency in days */
+//    int     mnt_passno;     /* pass number on parallel fsck */
+//};
+//该结构可以对应/etc/mtab或者/etc/fstab中的每一行的数据，如果是程序有需求要访问/etc/mtab或者/etc/fstab文件，那么使用linux自带的函数getmntent就可以直接获取一行的数据，很方便。setmntent可以根据参数指定的文件及打开类型来创建一个FD,该FD可以传入getmntent函数来获取一行的数据存入mntent结构中
+
 static int get_cgroup_mount(const char *subsystem, char *mnt)
 {
 	struct mntent *mntent;
