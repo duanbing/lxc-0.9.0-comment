@@ -51,6 +51,15 @@ struct genl_handler
  * @genlmsghdr: a generic netlink message header pointer
  *
  */
+
+//struct nlmsghdr {
+//    _u32 nlmsg_len; /* Length of msg including header */
+//    _u32 nlmsg_type; /* ²Ù×÷ÃüÁî */
+//    _u16 nlmsg_flags; /* various flags */
+//    _u32 nlmsg_seq; /* Sequence number */
+//    _u32 nlmsg_pid; /* ½ø³ÌPID */
+//};
+*/
 /* __attribute__ ((aligned(4))); */
 struct genlmsg {
 	struct nlmsghdr nlmsghdr;

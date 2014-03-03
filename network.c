@@ -581,6 +581,7 @@ static int proc_sys_net_write(const char *path, const char *value)
 	return err;
 }
 
+//开启IP转发,将主机充当路由器的功能
 static int ip_forward_set(const char *ifname, int family, int flag)
 {
 	char path[MAXPATHLEN];
@@ -607,6 +608,7 @@ int lxc_ip_forward_off(const char *ifname, int family)
 	return ip_forward_set(ifname, family, 0);
 }
 
+//arp代理设置，配置之后充当网关
 static int neigh_proxy_set(const char *ifname, int family, int flag)
 {
 	char path[MAXPATHLEN];
@@ -999,6 +1001,7 @@ int lxc_bridge_attach(const char *bridge, const char *ifname)
 
 	strncpy(ifr.ifr_name, bridge, IFNAMSIZ);
 	ifr.ifr_ifindex = index;
+    //将接口添加到网桥
 	err = ioctl(fd, SIOCBRADDIF, &ifr);
 	close(fd);
 	if (err)

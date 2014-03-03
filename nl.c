@@ -48,7 +48,7 @@ extern void *nlmsg_data(struct nlmsg *nlmsg)
 	return data;
 }
 
-//struct y {
+//struct rtattr {
 //               unsigned short rta_len;    /* Length of option */
 //               unsigned short rta_type;   /* Type of option */
 //               /* Data follows */
