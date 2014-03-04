@@ -10,6 +10,7 @@
 *  支持在clone子进程的时候指定	CLONE_NEWNS, CLONE_NEWPID, CLONE_NEWUTS, CLONE_NEWIPC,
 	CLONE_NEWUSER, CLONE_NEWNET。
 
-## network ： 首先，什么是网桥呢？ 可以简单的这么看，网桥是一个连接2个局域网的设备，是一个“底层的路由器”。根据重点地址来选择要发送的局域网网段。使用方法见[这里](http://wiki.dzsc.com/info/8659.html)
+## network 
+*  首先，什么是网桥呢？ 可以简单的这么看，网桥是一个连接2个局域网的设备，是一个“底层的路由器”。根据重点地址来选择要发送的局域网网段。使用方法见[这里](http://wiki.dzsc.com/info/8659.html)
 
 
