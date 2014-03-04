@@ -355,7 +355,7 @@ extern int lxc_command_init(const char *name, struct lxc_handler *handler,
 		return -1;
 	}
 
-    //设置主命令行的unix域套接字，命令行进程跟其他的container进行交互
+    //设置主命令行的unix域fd，命令行进程跟其他的container进行交互
 	handler->conf->maincmd_fd = fd;
 	return 0;
 }
