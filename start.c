@@ -468,12 +468,13 @@ struct lxc_handler *lxc_init(const char *name, struct lxc_conf *conf, const char
 		goto out_aborting;
 	}
 
-    //使用伪终端实现父子进程间通信
+    //根据lxc_conf->tty，创建pty
 	if (lxc_create_tty(name, conf)) {
 		ERROR("failed to create the ttys");
 		goto out_aborting;
 	}
 
+    //设置pty的slave
 	if (lxc_create_console(conf)) {
 		ERROR("failed to create console");
 		goto out_delete_tty;

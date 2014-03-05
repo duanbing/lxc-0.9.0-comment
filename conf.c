@@ -2589,6 +2589,7 @@ int lxc_create_tty(const char *name, struct lxc_conf *conf)
 
 		struct lxc_pty_info *pty_info = &tty_info->pty_info[i];
 
+        //获得一个可用的虚拟终端
 		if (openpty(&pty_info->master, &pty_info->slave,
 			    pty_info->name, NULL, NULL)) {
 			SYSERROR("failed to create pty #%d", i);
