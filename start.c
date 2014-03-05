@@ -102,6 +102,7 @@ struct signalfd_siginfo
 #    endif
 #endif
 
+//调用系统命令，一般都是为封装成api的命令
 int signalfd(int fd, const sigset_t *mask, int flags)
 {
 	int retval;
