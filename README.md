@@ -19,7 +19,17 @@
 *  lxc_conf_init~lxc_config_define_load   初始化lxc_conf ,加载资源配额的defines
 *  lxc_start  在这里首先是清关闭除了lxc相关的其他fd（lxc_log_fd，fd_to_ignore，0,1,2）。调用__lxc_start。
 
->
-* lxc_init ,进程的权能检查，初始化unix域套接字服务器，用于在console中接受用户命令
+> 
+**lxc_init** 
+* 进程的权能检查，初始化unix域套接字服务器，用于在console中接受用户命令
 * 设置container的当前状态为STARTING，将本实例的一些基本信息（lxc_name,conf_file,rootfs，console_path等进行setenv），并且调用pre-start阶段的回调
 * 接下来创建控制终端tty,并且设置console的peer，用于container跟用户进行交互。
+* 初始化一个signalfd，用于console的master和slave进程进行信号传递
+
+>
+**must_drop_cap_sys_boot**  
+* 检查container是否集成reboot权能
+
+>
+**lxc_spawn**
+* 

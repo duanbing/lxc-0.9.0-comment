@@ -32,6 +32,12 @@
 
 lxc_log_define(lxc_sync, lxc);
 
+/**
+ *  sync 的思路是利用阻塞式读写实现。在不同的阶段(LXC_SYNC_CONFIGURE
+ *  ...)先关闭写端，然后打开读，这样进程就一直在阻塞状态，从而达到控制父子进程间的同步
+ */
+
+
 static int __sync_wait(int fd, int sequence)
 {
 	int sync = -1;

@@ -116,8 +116,8 @@ int lxc_netdev_move_by_index(int ifindex, pid_t pid)
 	link_req->ifinfomsg.ifi_family = AF_UNSPEC;
 	link_req->ifinfomsg.ifi_index = ifindex;
 	nlmsg->nlmsghdr.nlmsg_len = NLMSG_LENGTH(sizeof(struct ifinfomsg));
-	nlmsg->nlmsghdr.nlmsg_flags = NLM_F_REQUEST|NLM_F_ACK;
-	nlmsg->nlmsghdr.nlmsg_type = RTM_NEWLINK;
+	nlmsg->nlmsghdr.nlmsg_flags = NLM_F_REQUEST|NLM_F_ACK;  // 标志为请求信息，并且接收端必须返回ack
+	nlmsg->nlmsghdr.nlmsg_type = RTM_NEWLINK;  //创建一个特定的网络接口
 
 	if (nla_put_u32(nlmsg, IFLA_NET_NS_PID, pid))
 		goto out;

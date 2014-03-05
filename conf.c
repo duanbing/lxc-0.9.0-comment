@@ -2426,6 +2426,9 @@ void lxc_delete_network(struct lxc_handler *handler)
 	}
 }
 
+/*
+ * 给指定进程空间分配网卡
+ */
 int lxc_assign_network(struct lxc_list *network, pid_t pid)
 {
 	struct lxc_list *iterator;

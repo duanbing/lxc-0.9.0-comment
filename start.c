@@ -102,7 +102,7 @@ struct signalfd_siginfo
 #    endif
 #endif
 
-//调用系统命令，一般都是为封装成api的命令
+//调用系统命令，未封装到libc的系统调用
 int signalfd(int fd, const sigset_t *mask, int flags)
 {
 	int retval;
@@ -204,6 +204,7 @@ static int setup_signal_fd(sigset_t *oldmask)
 		return -1;
 	}
 
+    //添加信号到fd
 	fd = signalfd(-1, &mask, 0);
 	if (fd < 0) {
 		SYSERROR("failed to create the signal fd");
@@ -794,6 +795,7 @@ int lxc_spawn(struct lxc_handler *handler)
 		}
 	}
 
+    //保存网卡信息
 	if (save_phys_nics(handler->conf)) {
 		ERROR("failed to save physical nic info");
 		goto out_abort;
@@ -804,6 +806,7 @@ int lxc_spawn(struct lxc_handler *handler)
 	 * marking it readonly.
 	 */
 
+    //保持根文件系统可写
 	handler->pinfd = pin_rootfs(handler->conf->rootfs.path);
 	if (handler->pinfd == -1) {
 		ERROR("failed to pin the container's rootfs");
@@ -819,6 +822,7 @@ int lxc_spawn(struct lxc_handler *handler)
 
 	lxc_sync_fini_child(handler);
 
+    //阻塞子进程，等待configure流程结束
 	if (lxc_sync_wait_child(handler, LXC_SYNC_CONFIGURE))
 		failed_before_rename = 1;
 
