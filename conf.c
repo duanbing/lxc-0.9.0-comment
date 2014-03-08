@@ -1393,6 +1393,7 @@ int setup_cgroup(const char *cgpath, struct lxc_list *cgroups)
 
 		cg = iterator->elem;
 
+        //将对应的资源配额配置到对应的子系统，例如cpu.shares等
 		if (lxc_cgroup_set_bypath(cgpath, cg->subsystem, cg->value)) {
 			ERROR("Error setting %s to %s for %s\n", cg->subsystem,
 				cg->value, cgpath);

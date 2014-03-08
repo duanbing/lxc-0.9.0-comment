@@ -105,6 +105,7 @@ int lxc_sync_wake_child(struct lxc_handler *handler, int sequence)
 
 int lxc_sync_init(struct lxc_handler *handler)
 {
+    //使用socketpair进行进程间通信
 	if (socketpair(AF_LOCAL, SOCK_STREAM, 0, handler->sv)) {
 		SYSERROR("failed to create synchronization socketpair");
 		return -1;

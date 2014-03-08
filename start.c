@@ -240,6 +240,7 @@ static int signal_handler(int fd, void *data,
 		return -1;
 	}
 
+    //当某一子进程结束、中断或恢复执行时，内核会发送SIGCHLD信号予其父进程
 	if (siginfo.ssi_signo != SIGCHLD) {
 		kill(*pid, siginfo.ssi_signo);
 		INFO("forwarded signal %d to pid %d", siginfo.ssi_signo, *pid);
@@ -361,21 +362,25 @@ int lxc_poll(const char *name, struct lxc_handler *handler)
 	int pid = handler->pid;
 	struct lxc_epoll_descr descr;
 
+    //创建描叙符
 	if (lxc_mainloop_open(&descr)) {
 		ERROR("failed to create mainloop");
 		goto out_sigfd;
 	}
 
+    //处理子进程的退出信息
 	if (lxc_mainloop_add_handler(&descr, sigfd, signal_handler, &pid)) {
 		ERROR("failed to add handler for the signal");
 		goto out_mainloop_open;
 	}
 
+    //处理回话信息,实现console的master和peer之间进行对话
 	if (lxc_console_mainloop_add(&descr, handler)) {
 		ERROR("failed to add console handler to mainloop");
 		goto out_mainloop_open;
 	}
 
+    //处理命令行事件，例如lxc-start等等
 	if (lxc_command_mainloop_add(name, &descr, handler)) {
 		ERROR("failed to add command handler to mainloop");
 		goto out_mainloop_open;
@@ -636,6 +641,7 @@ static int do_start(void *data)
 		return -1;
 	}
 
+    //关闭父进程的fd[1]
 	lxc_sync_fini_parent(handler);
 
 	/* don't leak the pinfd to the container */
@@ -820,9 +826,10 @@ int lxc_spawn(struct lxc_handler *handler)
 		goto out_delete_net;
 	}
 
+    //关闭子进程的fd[0]
 	lxc_sync_fini_child(handler);
 
-    //阻塞子进程，等待configure流程结束
+    //等待新的子进程告诉自己可以做LXC_SYNC_CONFIGURE这一步，参见do_start中的lxc_sync_barrier_parent，接下来交替完成各个LXC_SYNC_XXX
 	if (lxc_sync_wait_child(handler, LXC_SYNC_CONFIGURE))
 		failed_before_rename = 1;
 
@@ -876,6 +883,7 @@ int lxc_spawn(struct lxc_handler *handler)
 	if (lxc_sync_barrier_child(handler, LXC_SYNC_POST_CGROUP))
 		return -1;
 
+    //检测根文件系统是否可以共享
 	if (detect_shared_rootfs())
 		umount2(handler->conf->rootfs.mount, MNT_DETACH);
 
@@ -884,6 +892,7 @@ int lxc_spawn(struct lxc_handler *handler)
 	if (uid_shift_ttys(handler->pid, handler->conf))
 		DEBUG("Failed to chown ptys.\n");
 
+    //自定义的初始化
 	if (handler->ops->post_start(handler, handler->data))
 		goto out_abort;
 

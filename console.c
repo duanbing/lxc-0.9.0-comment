@@ -187,6 +187,7 @@ int lxc_create_console(struct lxc_conf *conf)
 	if (!strcmp(console->path, "none"))
 		return 0;
 
+    
 	if (openpty(&console->master, &console->slave,
 		    console->name, NULL, NULL)) {
 		SYSERROR("failed to allocate a pty");

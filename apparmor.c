@@ -98,6 +98,7 @@ extern void apparmor_handler_init(struct lxc_handler *handler)
 	INFO("aa_enabled set to %d\n", handler->aa_enabled);
 }
 
+//¶¨ÒåÔÚ/etc/apparmor.d/lxc/lxc-default,contains the default Apparmor MAC policy 
 #define AA_DEF_PROFILE "lxc-container-default"
 
 extern int do_apparmor_load(int aa_enabled, char *aa_profile,
