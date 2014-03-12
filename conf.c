@@ -1479,6 +1479,8 @@ static int mount_entry(const char *fsname, const char *target,
 		return -1;
 	}
 
+    //MS_BIND 使得一个文件或者目录在系统目录树的另外一个点上可以看见，源目录的操作都与应用于绑定的目录，不改变源目录
+    //MS_REMOUNT 重新挂载文件系统
 	if ((mountflags & MS_REMOUNT) || (mountflags & MS_BIND)) {
 
 		DEBUG("remounting %s on %s to respect bind or remount options",
@@ -1614,6 +1616,9 @@ static int mount_entry_on_relative_rootfs(struct mntent *mntent,
 	return ret;
 }
 
+/*
+ *  实现类似构造fstab文件然后进行mount -a的操作
+ */
 static int mount_file_entries(const struct lxc_rootfs *rootfs, FILE *file,
 	const char *lxc_name)
 {
